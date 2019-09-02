@@ -17,7 +17,7 @@
         <h1>Política de Privacidade</h1>
         <p>Esta página explica nossas políticas em relação a coleta, uso e
         divulgação das informações pessoais que recebemos dos usuários de nosso
-        aplicativo (monerujo: carteira Monero).
+        aplicativo (monerujo: carteira XMC).
         </p>
         <p>Ao usar este aplicativo, você concorda com a coleta e uso das
         informações de acordo com este documento.
@@ -25,8 +25,8 @@
         <h2>Dados Coletados</h2>
         <p>Dados pessoais consistem em todo tipo de informação que permite identificar um indivíduo.
         </p>
-        <p>Os endereços públicos e as chaves Monero são armazenados e processados localmente
-        no objetivo de efetuar as transações e transmiti-las à rede Monero de forma encriptada.
+        <p>Os endereços públicos e as chaves XMC são armazenados e processados localmente
+        no objetivo de efetuar as transações e transmiti-las à rede XMC de forma encriptada.
         </p>
         <p>Outros dados pessoais não são recolhidos pelo aplicativo.</p>
         <p>Se você utilizar a funcionalidade de conversão (opcional), o monerujo buscará
@@ -40,11 +40,11 @@
         IP também pode ser coletado.
         <h2>Permissões do aplicativo</h2>
         <ul>
-        <li>INTERNET : Conectar à rede Monero via um nó remoto</li>
+        <li>INTERNET : Conectar à rede XMC via um nó remoto</li>
         <li>READ_EXTERNAL_STORAGE : Ler os arquivos das carteiras no dispositivo</li>
         <li>WRITE_EXTERNAL_STORAGE : Escrever os arquivos das carteiras no dispositivo</li>
         <li>WAKE_LOCK : Mantém o dispositivo acordado ao sincronizar</li>
-        <li>CAMERA : Escanear códigos QR para transacionar Monero</li>
+        <li>CAMERA : Escanear códigos QR para transacionar XMC</li>
         </ul>
         <h2>Alterações a esta política de privacidade</h2>
         <p>Nós podemos alterar esta política de privacidade de tempos em tempos.

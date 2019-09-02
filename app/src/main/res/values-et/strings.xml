@@ -35,7 +35,7 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Sa sisestasid Bitcoini aadressi.</b><br/>
-        <i>See tähendab, et sa saadad Monerosid ning kohale jõuavad Bitcoinid kasutades XMC.TO teenust.</i>
+        <i>See tähendab, et sa saadad XMCsid ning kohale jõuavad Bitcoinid kasutades XMC.TO teenust.</i>
     ]]></string>
 
     <string name="info_send_xmrto_success_order_label">XMC.TO tellimus</string>
@@ -63,7 +63,7 @@
 
     <string name="label_send_progress_xmrto_create">Loon XMC.TO tellimust</string>
     <string name="label_send_progress_xmrto_query">Küsin XMC.TO tellimust</string>
-    <string name="label_send_progress_create_tx">Valmistan ette Monero ülekannet</string>
+    <string name="label_send_progress_create_tx">Valmistan ette XMC ülekannet</string>
 
     <string name="label_send_progress_queryparms">Küsin XMC.TO parameetreid</string>
 
@@ -214,8 +214,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Privaatsed kommentaarid (valikuline)</string>
     <string name="send_generate_paymentid_hint">Genereeri</string>
-    <string name="send_send_label">Saada mu kallid Monerod teele</string>
-    <string name="send_send_timed_label">Saada mu kallid Monerod (%1$s)</string>
+    <string name="send_send_label">Saada mu kallid XMCd teele</string>
+    <string name="send_send_timed_label">Saada mu kallid XMCd (%1$s)</string>
     <string name="send_qr_invalid">See pole QR kood</string>
     <string name="send_qr_address_invalid">See pole sobiv QR kood</string>
     <string name="send_address_invalid">See pole sobiv aadress</string>
@@ -382,5 +382,5 @@
 
     <string name="label_restoreheight">Taastamise plokinumber</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

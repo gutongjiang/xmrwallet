@@ -62,7 +62,7 @@
 
     <string name="label_send_progress_xmrto_create">Creearea ordinului XMC.TO</string>
     <string name="label_send_progress_xmrto_query">Interogare ordin XMC.TO</string>
-    <string name="label_send_progress_create_tx">Pregătirea tranzacției Monero</string>
+    <string name="label_send_progress_create_tx">Pregătirea tranzacției XMC</string>
 
     <string name="label_send_progress_queryparms">Interogare parametrii xmr.to</string>
 
@@ -192,8 +192,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notițe private (facultativ)</string>
     <string name="send_generate_paymentid_hint">Generează</string>
-    <string name="send_send_label">Spend my sweet Moneroj</string>
-    <string name="send_send_timed_label">Spend my sweet Moneroj (%1$s)</string>
+    <string name="send_send_label">Spend my sweet XMCj</string>
+    <string name="send_send_timed_label">Spend my sweet XMCj (%1$s)</string>
     <string name="send_qr_invalid">Cod QR invalid</string>
     <string name="send_qr_address_invalid">Cod QR de plată invalid</string>
     <string name="send_address_invalid">Adresă invalidă</string>
@@ -384,5 +384,5 @@
 
     <string name="label_restoreheight">Restaurează Monobloc</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

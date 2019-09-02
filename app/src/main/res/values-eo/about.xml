@@ -17,13 +17,13 @@
         <h1>Privateca politiko</h1>
         <p>Tiu paĝo informas vin pri nia politiko rilate al la kolektado, uzado
         kaj rivelado de personaj informoj kiujn ni ricevas de uzantoj de la
-        aplikaĵo. (monerujo: Monero Wallet).</p>
+        aplikaĵo. (monerujo: XMC Wallet).</p>
         <p>Uzante la aplikaĵon, vi akceptas la kolektadon kaj uzon de informoj
         kongrue al tiu politiko.</p>
         <h2>Kolektitaj datumoj</h2>
         <p>Persona datumo estas ĉiu ajn datumo kiu povas identigi personon.<p>
-        <p>Monero-ŝlosiloj kaj publikaj adresoj kolektiĝas kaj traktiĝas de la aplikaĵo
-        lokale, por la celo trakti transakciojn, kaj sendiĝas sur la Monero-reto je ĉifrita
+        <p>XMC-ŝlosiloj kaj publikaj adresoj kolektiĝas kaj traktiĝas de la aplikaĵo
+        lokale, por la celo trakti transakciojn, kaj sendiĝas sur la XMC-reto je ĉifrita
         formo.</p>
         <p>Aliaj personaj datumoj ne kolektiĝas de la aplikaĵo.</p>
         <p>Se vi uzas la opcian funkcionon, kiu permesas nombrumi vian pagon je alia valuto (ekz. dolaroj),
@@ -35,11 +35,11 @@
         BTC-ricevontadreson kaj kvanton. Via IP-adreso ankaŭ kolekteblos.</p>
         <h2>Permesoj de la aplikaĵo</h2>
         <ul>
-        <li>INTERRETO : Konekti kun la Monero-reto per noda demono</li>
+        <li>INTERRETO : Konekti kun la XMC-reto per noda demono</li>
         <li>LEGI_EKSTERAJN_MEMORILOJN : Legi la monujdosierojn kiuj konserviĝas en la aparato</li>
         <li>SKRIBI_EKSTERAJN_MEMORILOJN : Skribi la monujdosierojn kiuj konserviĝas en la aparato</li>
         <li>LASI_VEKA : Lasi la aparaton veka dum la sinkronizado</li>
-        <li>FILMILO : Skani QR-kodojn por ricevi Monerojn</li>
+        <li>FILMILO : Skani QR-kodojn por ricevi XMCjn</li>
         </ul>
         <h2>Ŝanĝoj de la privateca politiko</h2>
         <p>Ni eble ĝisdatigos tiun privatecan politikon de temp\' al tempo. Ni

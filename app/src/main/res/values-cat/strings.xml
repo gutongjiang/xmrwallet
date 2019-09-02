@@ -63,7 +63,7 @@
 
     <string name="label_send_progress_xmrto_create">Creant ordre XMC.TO</string>
     <string name="label_send_progress_xmrto_query">Consultant ordre XMC.TO</string>
-    <string name="label_send_progress_create_tx">Preparant transacció Monero</string>
+    <string name="label_send_progress_create_tx">Preparant transacció XMC</string>
 
     <string name="label_send_progress_queryparms">Consultant paràmetres XMC.TO</string>
 
@@ -219,8 +219,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Notes privades (opcional)</string>
     <string name="send_generate_paymentid_hint">Generar</string>
-    <string name="send_send_label">Spend my sweet Moneroj</string>
-    <string name="send_send_timed_label">Gastar els meus estimats Moneroj (%1$s)</string>
+    <string name="send_send_label">Spend my sweet XMCj</string>
+    <string name="send_send_timed_label">Gastar els meus estimats XMCj (%1$s)</string>
     <string name="send_qr_invalid">No es un codi QR</string>
     <string name="send_qr_address_invalid">No es un codi de pagament QR vàlid</string>
     <string name="send_address_invalid">No es una adreça vàlida</string>
@@ -382,5 +382,5 @@
 
     <string name="label_restoreheight">Restablir Alçada</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

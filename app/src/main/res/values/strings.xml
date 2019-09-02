@@ -64,7 +64,7 @@
 
     <string name="label_send_progress_xmrto_create">Creating XMC.TO Order</string>
     <string name="label_send_progress_xmrto_query">Querying XMC.TO Order</string>
-    <string name="label_send_progress_create_tx">Preparing Monero Transaction</string>
+    <string name="label_send_progress_create_tx">Preparing XMC Transaction</string>
 
     <string name="label_send_progress_queryparms">Querying XMC.TO parameters</string>
 
@@ -224,8 +224,8 @@
     <string name="send_notes_hint">Private Notes (optional)</string>
     <string name="send_generate_paymentid_hint">Generate</string>
     <string name="send_qr_hint" translatable="false">Scan</string>
-    <string name="send_send_label">Spend my sweet Moneroj</string>
-    <string name="send_send_timed_label">Spend my sweet Moneroj (%1$s)</string>
+    <string name="send_send_label">Spend my sweet XMCj</string>
+    <string name="send_send_timed_label">Spend my sweet XMCj (%1$s)</string>
     <string name="send_qr_invalid">Not a QR Code</string>
     <string name="send_qr_address_invalid">Not a valid payment QR code</string>
     <string name="send_address_invalid">Not a valid address</string>
@@ -435,5 +435,5 @@
 
     <string name="label_restoreheight">Restore Height</string>
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

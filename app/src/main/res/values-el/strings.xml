@@ -62,7 +62,7 @@
 
     <string name="label_send_progress_xmrto_create">Δημιουργία εντολής με XMC.TO</string>
     <string name="label_send_progress_xmrto_query">Αίτηση εντολής στο XMC.TO</string>
-    <string name="label_send_progress_create_tx">Προετοιμασά συναλλαγής Monero</string>
+    <string name="label_send_progress_create_tx">Προετοιμασά συναλλαγής XMC</string>
 
     <string name="label_send_progress_queryparms">Αίτηση στο xmr.to για παραμέτρους</string>
 
@@ -192,8 +192,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Προσωπικές σημειώσεις (προαιρετικό)</string>
     <string name="send_generate_paymentid_hint">Δημιουργία</string>
-    <string name="send_send_label">Ξόδεψε τα γλυκά μου Moneroj</string>
-    <string name="send_send_timed_label">Ξόδεψε τα γλυκά μου Moneroj (%1$s)</string>
+    <string name="send_send_label">Ξόδεψε τα γλυκά μου XMCj</string>
+    <string name="send_send_timed_label">Ξόδεψε τα γλυκά μου XMCj (%1$s)</string>
     <string name="send_qr_invalid">Δεν είναι QR κώδικας</string>
     <string name="send_qr_address_invalid">Δεν είναι έγκυρος κωδικός QR πληρωμής</string>
     <string name="send_address_invalid">Δεν είναι έγκυρη η διεύθυνση</string>
@@ -384,5 +384,5 @@
 
     <string name="label_restoreheight">Ύψος ανάκτησης</string> <!-- "Restore Height" -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

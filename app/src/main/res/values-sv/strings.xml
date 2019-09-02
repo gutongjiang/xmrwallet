@@ -56,7 +56,7 @@
 
     <string name="label_send_progress_xmrto_create">Skapar XMC.TO-beställning</string>
     <string name="label_send_progress_xmrto_query">Frågar XMC.TO-beställningen</string>
-    <string name="label_send_progress_create_tx">Förbereder Monero-transaktion</string>
+    <string name="label_send_progress_create_tx">Förbereder XMC-transaktion</string>
 
     <string name="label_send_progress_queryparms">Frågar xmr.to-parametrar</string>
 
@@ -198,8 +198,8 @@
     <string name="send_amount_hint">0,00</string>
     <string name="send_notes_hint">Privat anteckning (valfri)</string>
     <string name="send_generate_paymentid_hint">Skapa</string>
-    <string name="send_send_label">Spendera mina Moneroj</string>
-    <string name="send_send_timed_label">Spendera mina Moneroj (%1$s)</string>
+    <string name="send_send_label">Spendera mina XMCj</string>
+    <string name="send_send_timed_label">Spendera mina XMCj (%1$s)</string>
     <string name="send_qr_invalid">Inte en QR-kod</string>
     <string name="send_qr_address_invalid">Inte en giltig QR-kod för betalning</string>
     <string name="send_address_invalid">Inte en giltig adress</string>
@@ -369,5 +369,5 @@
 
     <string name="label_restoreheight">Återställningshöjd</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

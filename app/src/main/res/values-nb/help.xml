@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>Lage lommebok - Ny</h1>
-        <p>Hvis du trenger en ny Monero addresse!</p>
+        <p>Hvis du trenger en ny XMC addresse!</p>
         <p>Skriv inn et unikt lommebok navn og passord.
         Passordet blir brukt til å sikre lommebokdataene på enheten. Bruk et sterkt passord -
         helst en passordfrase.</p>
@@ -22,7 +22,7 @@
 
     <string name="help_create_seed"><![CDATA[
         <h1>Lage lommebook - Seed</h1>
-        <p>Hvis du allerede har en Monero addresse og vil gjennoprette transaksjonene fra blokkjeden!</p>
+        <p>Hvis du allerede har en XMC addresse og vil gjennoprette transaksjonene fra blokkjeden!</p>
         <p>Skriv inn et unikt lommebok navn og passord. Passordet er brukt for å sikre lommebokdataene på denne enheten.
         Bruk et sterkt passord, helst en passordfrase.</p>
         <p>Skriv inn seedet ditt i feltet \"Mnemonisk Seed\".<p>
@@ -36,7 +36,7 @@
         <p>Hvis du gjenoppretter lommeboka di ved hjelp av nøkler!</p>
         <p>Skriv inn et unikt lommebok navn og passord. Passordet er brukt for å sikre lommebokdataene på denne enheten.
         Bruk et sterkt passord, helst en passordfrase.<p>
-        <p>Skriv inn Monero-addressen din i feltet \"Offentlig Addresse\" og fyll ut \"View Key\" and \"Spend Key\".</p>
+        <p>Skriv inn XMC-addressen din i feltet \"Offentlig Addresse\" og fyll ut \"View Key\" and \"Spend Key\".</p>
         <p>Hvis du kjenner til blokkhøyden til den første transaksjonen til denne addressen,
 		skriv det inn i feltet \"Gjenopprettelseshøyde\" - hvis det er tomt vil <em>hele</em> blokkjeden skannes etter
         transaksjoner som hører til denne addressen. Dette tar <em>veldig</em> lang tid.<</p>
@@ -47,7 +47,7 @@
         <p>Hvis du bare vil følge med på innkommende transaksjoner til en lommebok!</p>
         <p>Skriv inn et unikt lommebok navn og passord. Passordet er brukt for å sikre lommebokdataene på denne enheten.
         Bruk et sterkt passord, helst en passordfrase.<p>
-        <p>Skriv inn Monero-addressen din i feltet \"Offentlig Addresse\" og fyll ut \"View-nøkkel\".</p>
+        <p>Skriv inn XMC-addressen din i feltet \"Offentlig Addresse\" og fyll ut \"View-nøkkel\".</p>
         <p>Hvis du kjenner til blokkhøyden til den første transaksjonen til denne addressen,
 		skriv det inn i feltet \"Gjenopprettelseshøyde\" - hvis det er tomt vil <em>hele</em> blokkjeden skannes etter
         transaksjoner som hører til denne addressen. Dette tar <em>veldig</em> lang tid.</p>
@@ -57,7 +57,7 @@
         <h1>Lommebokdetaljer</h1>
         <h2>Offentlig nøkkel</h2>
         Den offentlige addressen din er som bankkontonummeret ditt, som du kan dele med folk
-		uten å være redd for å miste penger. Det er denne folk sender Monero til.
+		uten å være redd for å miste penger. Det er denne folk sender XMC til.
         <h2>Mnemonisk Seed</h2>
         Dette er den eneste dataen du trenger for å gjenoprette lommeboka di senere,
 		og få full tilgang til pengene dine. Å holde denne privat er veldig viktig, siden den gir <em>hvem som helst</em> full
@@ -93,7 +93,7 @@
     <string name="help_list"><![CDATA[
         <h1>Lommebokliste</h1>
         <h2>Node</h2>
-        <p>Monerujo bruker en ekstern node for å kommunisere med Monero-nettverket, uten å måtte
+        <p>Monerujo bruker en ekstern node for å kommunisere med XMC-nettverket, uten å måtte
         laste ned og oppbevare en kopi av blokkjeden selv. Du kan finne en liste over populære
         eksterne noder eller lære hvordan du driver din egen eksterne node her: https://moneroworld.com/<p>
         <p>Monerujo kommer med noen eksterne noder lagt inn. Den husker de fem siste nodene du har brukt.</p>
@@ -107,7 +107,7 @@
         <h3>Detaljer</h3>
         <p>Viser lommebokdetaljene, seed og nøkler.</p>
         <h3>Motta</h3>
-        <p>Lag en QR-kode for å motta Monero.</p>
+        <p>Lag en QR-kode for å motta XMC.</p>
         <h3>Gi nytt navn</h3>
         <p>Gi nytt navn til lommeboka. Backuper blir ikke omgjort.</p>
         <h3>Backup</h3>
@@ -122,13 +122,13 @@
     <string name="help_tx_details"><![CDATA[
         <h1>Transaksjonsdetaljer</h1>
         <h2>Destinasjon</h2>
-        Dette er den offentlige adressen til lommeboka du sendte Monero til.
+        Dette er den offentlige adressen til lommeboka du sendte XMC til.
         <h2>Betalings-ID</h2>
-        Du kan bruke betalings-ID til å identifisere hvorfor du sendte Monero mellom to parter. Dette er
+        Du kan bruke betalings-ID til å identifisere hvorfor du sendte XMC mellom to parter. Dette er
         helt frivillig og privat. For eksempel lar det en bedrift tilknytte transaksjonen din med
 		en vare du har kjøpt.
         <h2>TX-ID</h2>
-        Dette er transaksjons-IDen din, som du kan bruke til å identifisere transaksjonen din på den obfuskerte Monero blokkjeden, ved å bruke en
+        Dette er transaksjons-IDen din, som du kan bruke til å identifisere transaksjonen din på den obfuskerte XMC blokkjeden, ved å bruke en
         blokkjedeutforsker som <a href="https://xmrchain.net/">https://xmrchain.net/</a>
         <h2>TX-nøkkel (Transaksjonsnøkkel)</h2>
         Dette er din private transaksjonsnøkkel. Hold den privat, siden å gi den til en tredjepart
@@ -152,12 +152,12 @@
         Please note, that sending BTC is processed through the XMR.TO service (see https://xmr.to
         for details). See the section on sending BTC below.</p>
         <h2>Betalings-ID</h2>
-        <p>Du kan bruke betalings-ID til å identifisere hvorfor du sendte Monero mellom to parter. Dette er
+        <p>Du kan bruke betalings-ID til å identifisere hvorfor du sendte XMC mellom to parter. Dette er
         helt frivillig og privat. For eksempel lar det en bedrift tilknytte transaksjonen din med
 		en vare du har kjøpt.<p>
         <h1>Å sende BTC</h1>
         <h2>XMR.TO</h2>
-        <p>XMR.TO er en tredjepartstjeneste som lar deg veksle Monero til Bitcoin.
+        <p>XMR.TO er en tredjepartstjeneste som lar deg veksle XMC til Bitcoin.
         Vi bruker XMR.TO-APIen til å integrere BTC-betalinger i Monerujo. Sjekk ut
         https://xmr.to og bestem for deg selv om dette er noe du vil bruke. Monerujo-utviklerne
         er ikke assosierte med XMR.TO og kan ikke hjelpe deg med deres tjeneste.</p>
@@ -185,7 +185,7 @@
     <string name="help_xmrto"><![CDATA[
         <h1>Å sende BTC</h1>
         <h2>XMR.TO</h2>
-        <p>XMR.TO er en tredjepartstjeneste som lar deg veksle Monero til Bitcoin.
+        <p>XMR.TO er en tredjepartstjeneste som lar deg veksle XMC til Bitcoin.
         Vi bruker XMR.TO-APIen til å integrere BTC-betalinger i Monerujo. Sjekk ut
         https://xmr.to og bestem for deg selv om dette er noe du vil bruke. Monerujo-utviklerne
         er ikke assosierte med XMR.TO og kan ikke hjelpe deg med deres tjeneste.</p>
@@ -228,9 +228,9 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Moneroj!</p>
+        you can see that you have sent/received sweet XMCj!</p>
         <h2>Skanning</h2>
-        Fordi Monero liker å holde ting privat, må vi hver gang du åpner en lommebok i Monerujo
+        Fordi XMC liker å holde ting privat, må vi hver gang du åpner en lommebok i Monerujo
         skanne blokkjeden for å se om noen nye moneroj har blitt sendt til lommeboka di, som bare
         lagrer informasjon til telefonen din som tilhører lommeboka. Noen ganger kan det ta litt
 		tid fordi du ikke har synkronisert på en stund.
@@ -238,7 +238,7 @@
         <p><b>Hjelp! Kontosaldoen min har blitt borte, eller noe er ubekrefta!</b><br/>
         Ikke få panikk! Når du sender penger fra lommeboka di, vil noe av saldoen din bli
 		vist som ubekrefta en liten periode.
-        Dette er et resultat av hvordan Monero veksles på blokkjeden og hvordan vekslepenger funker.
+        Dette er et resultat av hvordan XMC veksles på blokkjeden og hvordan vekslepenger funker.
         Les mer om vekslepenger på https://getmonero.org/resources/moneropedia/change.html
         <h2>Transaksjonsliste</h2>
         <p>En liste over lommeboktransaksjonene. In view lommebøker, kan man bare se innkommende transaksjoner.</p>
@@ -251,7 +251,7 @@
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
         <p>Monerujo uses a Remote Node (sometimes also called Daemon) to communicate with
-        the Monero Network without having to download and store a copy of the
+        the XMC Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
         <p>If the list is empty, you can either add new nodes manually or let Monerujo
@@ -280,16 +280,16 @@
         The &quot;Test Results&quot; will display the blockheight, response time and actual IP used.
         The result may also be an error - usually because the hostname provided is
         not reachable in a sensible amount of time or the credentials are incorrect.
-        Or the hostname/port combination does not point to an actual Monero Node!
+        Or the hostname/port combination does not point to an actual XMC Node!
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
         <p>Additionally, you can scan the network for nodes. Monerujo will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
-        bookmarked nodes for other peers in the Monero P2P network and then continues
+        bookmarked nodes for other peers in the XMC P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        Monerujo will go straight to the Monero seed nodes hardcoded into Monero. The
+        Monerujo will go straight to the XMC seed nodes hardcoded into XMC. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 

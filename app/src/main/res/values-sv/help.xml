@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>Skapa Plånbok - Ny</h1>
-        <p>Om du behöver en ny Monero-adress!</p>
+        <p>Om du behöver en ny XMC-adress!</p>
         <p>Ange ett unikt plånboksnamn och lösenord. Lösenordet används för att hålla din plånboksdata säker på enheten.
         Använd ett starkt lösenord - eller ännu bättre, använd en lösenfras.<p>
         <h2>Anteckna ditt Mnemoniska Frö!</h2>
@@ -21,7 +21,7 @@
 
     <string name="help_create_seed"><![CDATA[
         <h1>Skapa Plånbok - Frö</h1>
-        <p>Om du redan har en Monero-adress och vill återställa dess transaktioner från blockkedjan!</p>
+        <p>Om du redan har en XMC-adress och vill återställa dess transaktioner från blockkedjan!</p>
         <p>Ange ett unikt plånboksnamn och lösenord. Lösenordet används för att hålla din plånboksdata säker på enheten.
         Använd ett starkt lösenord - eller ännu bättre, använd en lösenfras.</p>
         <p>Ange ditt frö i fältet \"Mnemoniskt Frö\".<p>
@@ -35,7 +35,7 @@
         <p>Om du återställer en plånbok med dina nycklar!</p>
         <p>Ange ett unikt plånboksnamn och lösenord. Lösenordet används för att hålla din plånboksdata säker på enheten.
         Använd ett starkt lösenord - eller ännu bättre, använd en lösenfras.</p>
-        <p>Ange din Monero-adress i fältet \"Offentlig Adress\" och fyll i \"Visningsnyckel\" och \"Spenderingsnyckel\".</p>
+        <p>Ange din XMC-adress i fältet \"Offentlig Adress\" och fyll i \"Visningsnyckel\" och \"Spenderingsnyckel\".</p>
         <p>Om du känner till blocknumret av den första transaktionen använd för denna adress, ange det i
         \"Återställningshöjd\" fältet - om du lämnar fältet tomt kommer <em>hela</em> blockkedjan för
         transaktioner som tillhör din adress skannas. Det tar en väldigt lång tid.</p>
@@ -46,7 +46,7 @@
         <p>Om du bara vill hålla ett öga på inkommande transaktioner till en plånbok!</p>
         <p>Ange ett unikt plånboksnamn och lösenord. Lösenordet används för att hålla din plånboksdata säker på enheten.
         Använd ett starkt lösenord - eller ännu bättre, använd en lösenfras.</p>
-        <p>Ange din Monero-adress i fältet \"Offentlig Adress\" och fyll i \"Visningsnyckel\" och \"Spenderingsnyckel\".</p>
+        <p>Ange din XMC-adress i fältet \"Offentlig Adress\" och fyll i \"Visningsnyckel\" och \"Spenderingsnyckel\".</p>
         <p>Om du känner till blocknumret av den första transaktionen använd för denna adress, ange det i
         \"Återställningshöjd\" fältet - om du lämnar fältet tomt kommer <em>hela</em> blockkedjan för
         transaktioner som tillhör din adress skannas. Det tar en väldigt lång tid.</p>
@@ -56,25 +56,25 @@
         <h1>Plånboksinformation</h1>
         <h2>Offentlig adress</h2>
         Din offentliga adress är som ditt bankkontonummer, du kan dela det med vem som helst utan att
-        behöva oroa dig om att förlora dina Moneroj. Folk kommer skicka Monero till din plånbok med
+        behöva oroa dig om att förlora dina XMCj. Folk kommer skicka XMC till din plånbok med
         den här adressen.
         <h2>Mnemoniskt Frö</h2>
         Det här är den enda datan som behövs för att återställa din plånbok i framtiden och få full behörighet
         till dina pengar. Att bevara fröet säkert och privat är extremt viktigt, eftersom att det ger
-        <em>vem som helst</em> tillgång till dina Moneroj! Om du inte har skrivit ner det någonstans säkert,
+        <em>vem som helst</em> tillgång till dina XMCj! Om du inte har skrivit ner det någonstans säkert,
         vänligen gör det nu!
         <h2>Visningsnyckel</h2>
         Din visningsnyckel kan användas för att hålla ett öga på inkommande transaktioner till din
         plånbok utan att ge behörigheten att spendera pengarna i din plånbok.
         <h2>Spenderingsnyckel</h2>
-        Din spenderingsnyckel ger vem som helst tillgång att spendera all Monero i din plånbok, så
+        Din spenderingsnyckel ger vem som helst tillgång att spendera all XMC i din plånbok, så
         ge inte denna nyckeln till någon, förvara den säkert som ditt Mnemoniska Frö.
     ]]></string>
 
     <string name="help_list"><![CDATA[
         <h1>Plånbokslista</h1>
         <h2>Nod</h2>
-        Monerujo använder en Avlägsen Nod för att kommunicera med Monero-nätverket utan att
+        Monerujo använder en Avlägsen Nod för att kommunicera med XMC-nätverket utan att
         behöva ladda ner och lagra en kopia av hela blockkedjan. Du kan hitta en lista av populära
         avlägsna noder eller lära dig hur man kör sin egen avlägsen nod här https://moneroworld.com/
         <p>
@@ -94,7 +94,7 @@
         <h3>Detaljer</h3>
         <p>Visa plånbokens detaljer, frö &amp; nycklar.</p>
         <h3>Mottaga</h3>
-        <p>Gör en QR kod för att ta emot Moneroj.</p>
+        <p>Gör en QR kod för att ta emot XMCj.</p>
         <h3>Ändra namn</h3>
         <p>Ändra namn på plånboken. Säkerhetskopior ändrar inte namn.</p>
         <h3>Säkerhetskopiera</h3>
@@ -110,9 +110,9 @@
     <string name="help_tx_details"><![CDATA[
         <h1>Transaktionsdetaljer</h1>
         <h2>Destination</h2>
-        Det här är offentliga adressen av plånboken du skickat Monero till.
+        Det här är offentliga adressen av plånboken du skickat XMC till.
         <h2>Betalnings-ID</h2>
-        Du kan använda ett Betalnings-ID för att identifiera anledningen du skickat Monero till någon,
+        Du kan använda ett Betalnings-ID för att identifiera anledningen du skickat XMC till någon,
         det är valfritt och privat. Till exempel tillåter det en affär att förknippa din transaktion
         med något du köpt.
         <h2>TX ID</h2>
@@ -128,7 +128,7 @@
     <string name="help_send"><![CDATA[
         <h1>Skicka</h1>
         <h2>Mottagarens adress</h2>
-        <p>Det här är offentliga adressen av plånboken du skickar Moneroj till, du kan kopiera den från
+        <p>Det här är offentliga adressen av plånboken du skickar XMCj till, du kan kopiera den från
         urklipp, skanna en QR-kod eller ange den manuellt. Se till att du trippel-kollar den för att
         vara säker på att du inte skickar pengar till fel adress.</p>
         <p>In addition to using an XMR address, you can also use
@@ -140,12 +140,12 @@
         Please note, that sending BTC is processed through the XMR.TO service (see https://xmr.to
         for details). See the section on sending BTC below.</p>
         <h2>Betalnings-ID</h2>
-        <p>Du kan använda ett Betalnings-ID för att identifiera anledningen du skickat Monero till någon,
+        <p>Du kan använda ett Betalnings-ID för att identifiera anledningen du skickat XMC till någon,
         det är valfritt och privat. Till exempel tillåter det en affär att förknippa din transaktion
         med något du köpt.<p>
         <h1>Skicka BTC</h1>
         <h2>XMR.TO</h2>
-        <p>XMR.TO är en tredjeparts tjänst som byter ut Monero mot Bitcoin. Vi använder XMR.TO API:n
+        <p>XMR.TO är en tredjeparts tjänst som byter ut XMC mot Bitcoin. Vi använder XMR.TO API:n
         för att integrera Bitcoin betalningar i Monerujo. Vänligen besök https://xmr.to och bestäm
         för dig själv om det är någonting du vill använda. Monerujo laget är inte associerad med
         XMR.TO och kan inte hjälpa dig med deras tjänst.</p>
@@ -160,7 +160,7 @@
         är giltig under en begränsad tid - du kan se en nedräkning på \"Spendera\" knappen. Växelkursen
         kan vara annorlunda från den indikativa, visad på tidigare skärmar..</p>
         <h2>XMR.TO Privatnyckel<h2>
-        <p>Eftersom att Monerujo bara tar hand om Monero delen av din transaktion, kan din XMR.TO
+        <p>Eftersom att Monerujo bara tar hand om XMC delen av din transaktion, kan din XMR.TO
         privatnyckel användas för att spåra Bitcoin delen av din beställning på XMR.TO sidan.</p>
         <p>Vänligen notera att denna privatnyckeln bara är giltig i 24 timmar efter att transaktionen
         är påbörjad!</p>
@@ -170,7 +170,7 @@
     ]]></string>
 
     <string name="help_xmrto"><![CDATA[
-      <p>XMR.TO är en tredjeparts tjänst som byter ut Monero mot Bitcoin. Vi använder XMR.TO API:n
+      <p>XMR.TO är en tredjeparts tjänst som byter ut XMC mot Bitcoin. Vi använder XMR.TO API:n
       för att integrera Bitcoin betalningar i Monerujo. Vänligen besök https://xmr.to och bestäm
       för dig själv om det är någonting du vill använda. Monerujo laget är inte associerad med
       XMR.TO och kan inte hjälpa dig med deras tjänst.</p>
@@ -185,7 +185,7 @@
       är giltig under en begränsad tid - du kan se en nedräkning på \"Spendera\" knappen. Växelkursen
       kan vara annorlunda från den indikativa, visad på tidigare skärmar..</p>
       <h2>XMR.TO Privatnyckel<h2>
-      <p>Eftersom att Monerujo bara tar hand om Monero delen av din transaktion, kan din XMR.TO
+      <p>Eftersom att Monerujo bara tar hand om XMC delen av din transaktion, kan din XMR.TO
       privatnyckel användas för att spåra Bitcoin delen av din beställning på XMR.TO sidan.</p>
       <p>Vänligen notera att denna privatnyckeln bara är giltig i 24 timmar efter att transaktionen
       är påbörjad!</p>
@@ -212,16 +212,16 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Moneroj!</p>
+        you can see that you have sent/received sweet XMCj!</p>
         <h2>Inläsning</h2>
-        Eftersom Monero gillar att ha saker privat, läser Monerujo in blockkedjan för att se om du fått
-        nya Moneroj varje gång du öppnar plånboken, det lagras alltså bara information på din mobil som
+        Eftersom XMC gillar att ha saker privat, läser Monerujo in blockkedjan för att se om du fått
+        nya XMCj varje gång du öppnar plånboken, det lagras alltså bara information på din mobil som
         har med din plånbok att göra. Ibland kan det ta lång tid om du inte har synkroniserat på länge.
         <h2>Saldot</h2>
         <p><b>Hjälp! Min plånboks saldo har försvunnit eller är inte bekräftat!</b><br/>
         Få inte panik! När du skickar pengar från din plånbok, visas en del av ditt saldo temporärt
         som obekräftat.
-        Det här händer på grund av hur Monero är skickat på blockkedjan och hur växel fungerar.
+        Det här händer på grund av hur XMC är skickat på blockkedjan och hur växel fungerar.
         Läs mer om växel på https://getmonero.org/resources/moneropedia/change.html
         <h2>Transaktionlista</h2>
         <p>En lista av plånbokens transaktioner. I vis-plånböcker, visas bara inkommande transaktioner.</p>
@@ -234,7 +234,7 @@
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
         <p>Monerujo uses a Remote Node (sometimes also called Daemon) to communicate with
-        the Monero Network without having to download and store a copy of the
+        the XMC Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
         <p>If the list is empty, you can either add new nodes manually or let Monerujo
@@ -263,16 +263,16 @@
         The &quot;Test Results&quot; will display the blockheight, response time and actual IP used.
         The result may also be an error - usually because the hostname provided is
         not reachable in a sensible amount of time or the credentials are incorrect.
-        Or the hostname/port combination does not point to an actual Monero Node!
+        Or the hostname/port combination does not point to an actual XMC Node!
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
         <p>Additionally, you can scan the network for nodes. Monerujo will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
-        bookmarked nodes for other peers in the Monero P2P network and then continues
+        bookmarked nodes for other peers in the XMC P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        Monerujo will go straight to the Monero seed nodes hardcoded into Monero. The
+        Monerujo will go straight to the XMC seed nodes hardcoded into XMC. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 

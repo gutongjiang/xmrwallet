@@ -16,7 +16,7 @@
     <string name="privacy_policy"><![CDATA[
         <h1>Privaatsuspoliitika</h1>
         <p>See leht informeerib sind personaalsete andmete kogumise, kasutamise ja
-        avaldamise osas, mida saame meie äpi (monerujo: Monero Wallet) kasutajatelt.
+        avaldamise osas, mida saame meie äpi (monerujo: XMC Wallet) kasutajatelt.
         </p>
         <p>Äppi kasutades nõustute teabe kogumise ja kasutamisega vastavalt sellele
         poliitikale.
@@ -24,8 +24,8 @@
         <h2>Kogutud andmed</h2>
         <p>Isikuandmed on igasugused andmed, mis võivad isikut tuvastada.
         </p>
-        <p>Monero võtmeid ja avalikke aadresse kogutakse ja töödeldakse äpisiseselt
-        tehingute töötlemiseks ja edastatakse Monero võrku krüptitud kujul.
+        <p>XMC võtmeid ja avalikke aadresse kogutakse ja töödeldakse äpisiseselt
+        tehingute töötlemiseks ja edastatakse XMC võrku krüptitud kujul.
         </p>
         <p>Rakendus ei kogu muid isikuandmeid.</p>
         <p>Kui kasutate vahetusfunktsiooni, kasutab monerujo selleks coinmarketcap.com\'i
@@ -38,11 +38,11 @@
         võidakse ka teie IP aadressi.</p>
         <h2>Äpi õigused</h2>
         <ul>
-        <li>INTERNET : Monero võrguga ühenduse loomine Monero Daemoni sõlmpunkti kaudu</li>
+        <li>INTERNET : XMC võrguga ühenduse loomine XMC Daemoni sõlmpunkti kaudu</li>
         <li>READ_EXTERNAL_STORAGE : Seadmesse salvestatud rahakoti failide lugemiseks</li>
         <li>WRITE_EXTERNAL_STORAGE : Rahakoti failide seadmesse salvestamiseks</li>
         <li>WAKE_LOCK : Sünkroonimise ajal hoiab seadme ärkvel</li>
-        <li>CAMERA : QR-koodi lugemine Monero saamiseks</li>
+        <li>CAMERA : QR-koodi lugemine XMC saamiseks</li>
         </ul>
         <h2>Privaatsuspoliitika muudatused</h2>
         <p>Me võime aeg-ajalt seda privaatsuspoliitikat uuendada. Teatame teile kõigist

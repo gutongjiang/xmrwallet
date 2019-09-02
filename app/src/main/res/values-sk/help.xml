@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>Vytvoriť Peňaženku - Novú</h1>
-        <p>Ak Ti treba novú Monero adresu!</p>
+        <p>Ak Ti treba novú XMC adresu!</p>
         <p>Vlož unikátny názov a heslo peňaženky.
         Heslo je určené na zabezpečenie dát peňaženky v tomto zariadení. 
 		Používaj silné heslo - alebo ešte lepšie je použiť frázu.</p>
@@ -18,7 +18,7 @@
 
     <string name="help_create_seed"><![CDATA[
         <h1>Vytvoriť Peňaženku - Seed</h1>
-        <p>Ak už máš Monero adresu a chceš obnoviť transakcie z blockchain!</p>
+        <p>Ak už máš XMC adresu a chceš obnoviť transakcie z blockchain!</p>
         <p>Vlož unikátny názov a heslo peňaženky. 
 		Heslo je určené na zabezpečenie dát peňaženky v tomto zariadení. 
 		Používaj silné heslo - alebo ešte lepšie je použiť frázu.</p>
@@ -33,7 +33,7 @@
         <p>Vlož unikátny názov a heslo peňaženky. 
 		Heslo je určené na zabezpečenie dát peňaženky v tomto zariadení. 
 		Používaj silné heslo - alebo ešte lepšie je použiť frázu.<p>
-		<p>Vlož svoju Monero adresu do poľa \"Verejná Adresa\" a vyplň \"Prezerací Kľúč\" and  \"Platobný Kľúč\".</p>
+		<p>Vlož svoju XMC adresu do poľa \"Verejná Adresa\" a vyplň \"Prezerací Kľúč\" and  \"Platobný Kľúč\".</p>
         <p>Ak poznáš číslo bloku svojej prvej transakcie pre túto adresu, vlož ho do poľa \"Obnov Výšku\" - zanechaním prázdneho poľa budeš skenovať <em>celú</em> blockchain,
 		aby si našiel transakcie prislúchajúce tejto adrese. To môže trvať <em>veľmi</em> dlho.</p>
 		<p>Vlož sem číslo bloku prvej transakcie pre túto adresu do políčka \"Obnov Výšku\". Môžeš tiež použiť dátum vo formáte YYYY-MM-DD. 
@@ -55,7 +55,7 @@
         <p>Ak chceš iba sledovať prichádzajúce transakcie!</p>
         <p>Vlož unikátny názov a heslo peňaženky. Heslo je určené na zabezpečenie dát peňaženky v tomto zariadení. 
         Používaj silné heslo - alebo ešte lepšie je použiť frázu.<p>
-        <p>Vlož svoju Monero adresu do poľa \"Verejná Adresa\" a vyplň \"Prezerací Kľúč\".</p>
+        <p>Vlož svoju XMC adresu do poľa \"Verejná Adresa\" a vyplň \"Prezerací Kľúč\".</p>
         <p>Ak poznáš číslo bloku svojej prvej transakcie pre túto adresu, vlož ho do poľa \"Obnov Výšku\". Môžeš tiež použiť dátum vo formáte YYYY-MM-DD. 
 		Ak to nevieš naisto, vlož približný dátum/číslo bloku <em>pred</em> tým ako si prvýkrát použil danú adresu.
 		Zanechaním prázdneho poľa budeš skenovať <em>celú</em> blockchain, aby si našiel transakcie prislúchajúce tejto adrese. To môže trvať <em>veľmi</em> dlho.</p>
@@ -65,7 +65,7 @@
         <h1>Detaily Peňaženky</h1>
         <h2>Verejná Adresa</h2>
         Vaša verejná adresa je niečo ako číslo bakového účtu, ktoré môžte zdieľať bez toho aby ste sa báli,
-		že prídete o svoje Monero. Ľudia vám budú posielať Monero práve na túto adresu.
+		že prídete o svoje XMC. Ľudia vám budú posielať XMC práve na túto adresu.
         <h2>Mnemotechnický Seed</h2>
         Tieto dáta sú potrebné len na obnovu peňaženky a získanie plného prístupu k vašim prostriedkom.
 		Bezpečné uloženie a utajenie týchto dát je veľmi dôležité, keďže pomocou nich <em>hocikto</em> môže získať kontrolu nad vašimi XMR!
@@ -93,14 +93,14 @@
         Tvoj prezerací kľúč (view key) môžeš používať na sledovanie prichádzajúcich transakcií do peňaženky,
 		zatiaľ čo míňať prostriedky tento prezerací kľúč neumožňuje.
 		<h2>Platobný Kľúč</h2>
-        Platobný Kľúč (spend key) umožňuje míňať Monero prislúchajúce danej peňaženke,
+        Platobný Kľúč (spend key) umožňuje míňať XMC prislúchajúce danej peňaženke,
 		takže ho nikomu nepredrádzaj a uchovaj rovnako bezpečne ako svoj mnemotechnický seed.
 	]]></string>
 
     <string name="help_list"><![CDATA[
         <h1>Zoznam Peňaženiek</h1>
         <h2>Uzol</h2>
-        <p>Monerujo používa vzdialené uzly na komunikáciu so sieťou Monero. Nie je tak potrebné sťahovať
+        <p>Monerujo používa vzdialené uzly na komunikáciu so sieťou XMC. Nie je tak potrebné sťahovať
 		a ukladať celú blockchain ako takú. Zoznam populárnych uzlov spolu s návodmi ako ich rozbehať môžeš nájsť na 
 		https://moneroworld.com/<p>
         <p>Monerujo prichádza s niekoľkými prednastavenými uzlami. Pamätá si posledných 5 použitých uzlov.</p>
@@ -113,7 +113,7 @@
         <h3>Detaily</h3>
         <p>ukáže detaily peňaženky, seed &amp; kľúče.</p>
         <h3>Prijať</h3>
-        <p>Vytvorí QR kód na prijímanie Moneroj.</p>
+        <p>Vytvorí QR kód na prijímanie XMCj.</p>
         <h3>Premenuj</h3>
         <p>Premenuje peňaženku. Zálohy nie sú premenované.</p>
         <h3>Záloha</h3>
@@ -129,12 +129,12 @@
     <string name="help_tx_details"><![CDATA[
         <h1>Detaily Transakcie</h1>
         <h2>Destinácia</h2>
-        Toto je verejná adresa peňaženky kde chceš poslať Monero.
+        Toto je verejná adresa peňaženky kde chceš poslať XMC.
 		<h2>ID Platby</h2>
         Môžeš použiť ID Platby na identifikáciu platby medzi dvoma stranami. Nie je to síce povinný, ale je to súkromný údaj.
-		Tak napríklad s týmto môžeš zosúladiť svoj biznis s kúpenou položkou. Táto funkcia bude v Monero nahradená podadresami.
+		Tak napríklad s týmto môžeš zosúladiť svoj biznis s kúpenou položkou. Táto funkcia bude v XMC nahradená podadresami.
         <h2>TX ID</h2>
-        Toto je ID transakcie, ktoré slúži na identifikáciu transakcie v Monero blockchain exploreri, ako napr. <a href="https://xmrchain.net/">https://xmrchain.net/</a>
+        Toto je ID transakcie, ktoré slúži na identifikáciu transakcie v XMC blockchain exploreri, ako napr. <a href="https://xmrchain.net/">https://xmrchain.net/</a>
         <h2>TX KĽÚČ (Transaction Key)</h2>
         Toto je Tvoj súkromný kľúč transakcie, uchovaj ho bezpečne a neposkytuj ho tretím stranám,
 		aby nemohli identifikovať tvoj podpis v kruhovom podpise a spraviť tak transakciu verejnú a transparentnú.		
@@ -146,7 +146,7 @@
     <string name="help_send"><![CDATA[
         <h1>Poslať</h1>
         <h2>Adresa Príjemcu</h2>
-        <p>Toto je verejná adresa peňaženky kam posielaš Monero. Môžeš ju kopírovať zo schránky, skenovať QR kód alebo vložiť manuálne.
+        <p>Toto je verejná adresa peňaženky kam posielaš XMC. Môžeš ju kopírovať zo schránky, skenovať QR kód alebo vložiť manuálne.
 		Trikrát sa uisti, že neposielaš mince na zlú adresu.</p>
         <p>Okrem XMR adries, môžte použiť tiež
         <ul>
@@ -161,20 +161,20 @@
         Môžeš tak napríklad prelinkovať transakciu s tovarom, alebo so svojim biznisom.<p>
         <h1>Posielanie BTC</h1>
         <h2>XMR.TO</h2>
-        <p>XMR.TO je služba tretej strany, ktorá umožňuje zámenu z Monero na Bitcoin.
+        <p>XMR.TO je služba tretej strany, ktorá umožňuje zámenu z XMC na Bitcoin.
         Používame XMR.TO API na integráciu Bitcoin platieb do Monerujo. Prosím mrkni na 
 		https://xmr.to a rozhodni sa sám, či je to naozaj služba, ktorú chceš používať.
 		Tím Monerujo nie je nijako spojený so službou XMR.TO a teda nemôže pomôcť s prípadnými problémami s touto službou.</p>
         <h2>XMR.TO Výmenný Kurz<h2>
         <p>Na obrazovke \"Množstvo\" uvidíš aktuálne parametre služby XMR.TO, vrátane aktuálneho kurzu BTC, hornej a dolnej hranice.
 		Podotýkame, že tento kurz nie je garantovaný.
-		Tiež tam možno vidieť množstvo BTC, ktoré budú zamieňané instantne bez čakania na potvrdenia v Monero sieti. 
+		Tiež tam možno vidieť množstvo BTC, ktoré budú zamieňané instantne bez čakania na potvrdenia v XMC sieti. 
 	    (pozri XMR.TO FAQ ). XMR.TO si neúčtuje ďalšie extra poplatky za transakciu. - No nie je to cool?</p>
         <h2>XMR.TO Objednávka<h2>
         <p>Na obrazovke \"Potvrdiť\", uvidíš aktuálnu objednávku v XMR.TO. Táto objednávka je platná iba obmedzený čas - ako si môžeš všimnúť odpočítavanie na tlačítku \"Minúť\". 
 		Výmenný kurz sa môže líšiť od toho, ktorý bol na predošlých obrazovkách.</p>
         <h2>XMR.TO Tajný Kľúč<h2>
-        <p>Keďže Monerujo dbá len na tú časť transakcie, ktorá pracuje s Monero, 
+        <p>Keďže Monerujo dbá len na tú časť transakcie, ktorá pracuje s XMC, 
 		tento XMR.TO Tajný Kľúč sa môže využívať na sledovanie Bitcoinovej časti transakcie a objednávky
 		na domovskej stránke XMR.TO</p>
         <p>Ber na vedomie, že tento Tajný Kľúč je platný iba 24 hodín od začiatku transakcie!</p>
@@ -185,21 +185,21 @@
     <string name="help_xmrto"><![CDATA[
         <h1>Posielanie BTC</h1>
         <h2>XMR.TO</h2>
-        <p>XMR.TO  je služba tretej strany umožňujúca zámenu Monero na Bitcoin.
+        <p>XMR.TO  je služba tretej strany umožňujúca zámenu XMC na Bitcoin.
         Používame XMR.TO API na integráciu Bitcoin platieb do Monerujo. Prosím mrkni na https://xmr.to 
 		a rozhodni sa sám, či to je niečo, čo chceš používať. 
 		Tím Monerujo nie je nijako spojený so službou XMR.TO a teda nemôže pomôcť s prípadnými problémami s touto službou.</p>
         <h2>XMR.TO Výmenný Kurz<h2>
         <p>na obrazovke \"Množstvo\" uvidíš aktuálne parametre služby XMR.TO, vrátane aktuálneho kurzu BTC, hornej a dolnej hranice.
 		Pamätaj, že tento kurz nie je garantovaný. Tiež tam možno vidieť množstvo BTC,
-		ktoré budú zamieňané instantne bez čakania na potvrdenia v Monero sieti.
+		ktoré budú zamieňané instantne bez čakania na potvrdenia v XMC sieti.
 		(pozri XMR.TO FAQ ). XMR.TO si neúčtuje ďalšie extra poplatky za transakciu. - No nie je to cool?</p>
         <h2>XMR.TO Objednávka<h2>
         <p>Na obrazovke \"Potvrdiť\" , uvidíš aktuálnu objednávku v XMR.TO. 
 		Táto objednávka je platná iba obmedzený čas - ako si môžeš všimnúť odpočítavanie na tlačítku \"Minúť\".
 		Výmenný kurz sa môže líšiť od toho, ktorý bol na predošlých obrazovkách.</p>
 		<h2>XMR.TO Tajný Kľúč<h2>
-        <p>Keďže Monerujo dbá len na tú časť transakcie, ktorá pracuje s Monero, 
+        <p>Keďže Monerujo dbá len na tú časť transakcie, ktorá pracuje s XMC, 
 		tento XMR.TO Tajný Kľúč sa môže využívať na sledovanie Bitcoinovej časti transakcie a objednávky
 		na domovskej stránke XMR.TO</p>
         <p>Ber na vedomie, že tento Tajný Kľúč je platný iba 24 hodín od začiatku transakcie!</p>
@@ -216,13 +216,13 @@
 		aby ste mohli vidieť či vám odoslalo a dorazilo všetko správne.</p>
 
         <h2>Skenovanie</h2>
-        Keďže Monero obľubuje súkromie, zakaždým pri otváraní Monerujo musíme skenovať blockchain aby sme videli, či nedorazili nové Monerá.
+        Keďže XMC obľubuje súkromie, zakaždým pri otváraní Monerujo musíme skenovať blockchain aby sme videli, či nedorazili nové Monerá.
 		Monerujo uchováva len tie informácie, ktoré prislúchajú vašej peňaženke. Pokiaľ nemáte sychronizovanú peňaženku dlhší čas, synchronizácia môže trvať dlho.
         <h2>Zostatok</h2>
         <p><b>Pomóc! Zostatok v mojej peňaženke zmizol, alebo je nepotvrdený!</b><br/>
         Nestresuj! Keď odosielaš prostriedky zo svojej peňaženky, časť zostatku sa dočasne ukáže ako nepotvrdená.
 
-        Súvisí to s tým, ako je Monero navrhnuté a ako funguje zmena v blockchain.
+        Súvisí to s tým, ako je XMC navrhnuté a ako funguje zmena v blockchain.
 
 		Viac o zmenách sa dočítaš (anglicky) na https://getmonero.org/resources/moneropedia/change.html
         <h2>Zoznam Transakcií</h2>
@@ -234,7 +234,7 @@
         <h2>TL;DR</h2>
         <p>Aktuálny zoznam uzlov získaš tak, že potiahneš a pridáš do záložiek 5 uzlov, z ktorých si Monerujo jeden vyberie.</p>
         <h2>Čo je Uzol?</h2>
-        <p>Monerujo používa vzdialený uzol (Remote Node, niekedy nazývaný aj Daemon) a peňaženka tak môže komunikovať so sieťou Monero bez toho, aby bolo potrebné sťahovať celú blockchain.<p>
+        <p>Monerujo používa vzdialený uzol (Remote Node, niekedy nazývaný aj Daemon) a peňaženka tak môže komunikovať so sieťou XMC bez toho, aby bolo potrebné sťahovať celú blockchain.<p>
         <h2>Zoznam Uzlov</h2>
         <p>Ak je zoznam prázdny, môžeš zadať adresu uzla manuálne, alebo môžeš nechať Monerujo preskúmať celú sieť. Prípadne oboje. Čítaj ďalej&#8230;</p>
         <p>Zoznam uzlov zobrazuje všetky momentálne známe uzly. Pod každým uzlom je zobrazená časová pečiatka jeho posledného bloku.
@@ -251,12 +251,12 @@
         To by malo stačiť na testovanie týchto nastavení. &quot;Test&quot;
         &quot;Výsledky Testu&quot; zobrazia výšku, čas odozvy a aktuálnu IP adresu uzla.
         Vo výsledku môže byť tiež chyba - zvyčajne preto, že uzol nie je dostupný, neodpovedá v požadovanom čase, alebo prihlasovacie údaje nie sú správne.
-		Prípadne kombinácia zadanej adresy a portu neprislúcha žiadnemu uzlu Monero siete!
+		Prípadne kombinácia zadanej adresy a portu neprislúcha žiadnemu uzlu XMC siete!
         Akonáhle test skončí úspešne (žiadna chyba sa neobjaví) - klepni na &quot;OK&quot; a ulož si daný uzol.</p>
         <h2>Vyhľadať Uzol</h2>
-        <p>Táto funkcia umožní vyhľadať uzol skenovaním Monero siete. Monerujo začne skenovať sieť a vyhľadávať vzdialené uzly na porte 18089.
-		Začína tým, že sa opýta uzlov vo vašich záložkách na ďalšie uzly v P2P sieti Monero, ktoré sú s nimi spojené, tých sa opýta zas na ďalšie uzly atď. 
-		V prípade, že nemáte žiadne uzly vo svojich záložkách, Monerujo bude skúšať uzly (seed nodes) natvrdo zapísané v kóde Monero. Vyhľadávanie končí ak Monerujo nájde aspoň 10 vzdialených uzlov.</p>
+        <p>Táto funkcia umožní vyhľadať uzol skenovaním XMC siete. Monerujo začne skenovať sieť a vyhľadávať vzdialené uzly na porte 18089.
+		Začína tým, že sa opýta uzlov vo vašich záložkách na ďalšie uzly v P2P sieti XMC, ktoré sú s nimi spojené, tých sa opýta zas na ďalšie uzly atď. 
+		V prípade, že nemáte žiadne uzly vo svojich záložkách, Monerujo bude skúšať uzly (seed nodes) natvrdo zapísané v kóde XMC. Vyhľadávanie končí ak Monerujo nájde aspoň 10 vzdialených uzlov.</p>
     ]]></string>
 
     <string name="help_uri"><![CDATA[

@@ -64,7 +64,7 @@
 
     <string name="label_send_progress_xmrto_create">Kreiranje XMC.TO Nalog</string>
     <string name="label_send_progress_xmrto_query">Ispitivanje XMC.TO Nalog</string>
-    <string name="label_send_progress_create_tx">Pripremanje Monero transakcije</string>
+    <string name="label_send_progress_create_tx">Pripremanje XMC transakcije</string>
 
     <string name="label_send_progress_queryparms">Ispitivanje XMC.TO parametara</string>
 
@@ -221,8 +221,8 @@
     <string name="send_notes_hint">Privatne beleške (opciono)</string>
     <string name="send_generate_paymentid_hint">Generiši</string>
 
-    <string name="send_send_label">Potroši moj slatki Moneroj</string>
-    <string name="send_send_timed_label">Potroši moj slatki Moneroj (%1$s)</string>
+    <string name="send_send_label">Potroši moj slatki XMCj</string>
+    <string name="send_send_timed_label">Potroši moj slatki XMCj (%1$s)</string>
     <string name="send_qr_invalid">Nije QR kod</string>
     <string name="send_qr_address_invalid">Nije validan QR kod za plaćanje</string>
     <string name="send_address_invalid">Nije validna adresa</string>
@@ -384,5 +384,5 @@
 
     <string name="label_restoreheight">Obnovi visinu</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

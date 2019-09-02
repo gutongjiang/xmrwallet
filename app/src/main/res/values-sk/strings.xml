@@ -64,7 +64,7 @@
 
     <string name="label_send_progress_xmrto_create">Vytváram objednávku na XMC.TO</string>
     <string name="label_send_progress_xmrto_query">Pýtam sa na objednávku XMC.TO</string>
-    <string name="label_send_progress_create_tx">Pripravujem Monero transakciu</string>
+    <string name="label_send_progress_create_tx">Pripravujem XMC transakciu</string>
 
     <string name="label_send_progress_queryparms">Posielam XMC.TO parametre</string>
 
@@ -215,8 +215,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">Súkromné Poznámky (voliteľné)</string>
     <string name="send_generate_paymentid_hint">Generuj</string>
-    <string name="send_send_label">Odošli Monero</string>
-    <string name="send_send_timed_label">Odošli Monero (%1$s)</string>
+    <string name="send_send_label">Odošli XMC</string>
+    <string name="send_send_timed_label">Odošli XMC (%1$s)</string>
     <string name="send_qr_invalid">Neplatný QR Kód</string>
     <string name="send_qr_address_invalid">Neplatný QR Kód Platby</string>
     <string name="send_address_invalid">Neplatná Adresa</string>
@@ -385,5 +385,5 @@
 
     <string name="label_restoreheight">Výška</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

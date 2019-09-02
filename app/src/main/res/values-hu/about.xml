@@ -15,7 +15,7 @@
 
     <string name="privacy_policy"><![CDATA[
         <h1>Adatvédelmi irányelvek</h1>
-        <p>Ez az oldal nyújt tájékoztatást az applikációnkat (monerujo: Monero pénztárca)
+        <p>Ez az oldal nyújt tájékoztatást az applikációnkat (monerujo: XMC pénztárca)
         használók személyes információinak gyűjtésére, felhasználására és közzétételére
         vonatkozó irányelveinkről.
         </p>
@@ -25,9 +25,9 @@
         <h2>Gyűjtött adatok</h2>
         <p>Személyes adat bármi olyan adat, mely személyazonosításra alkalmas.
         </p>
-        <p>A Monero-kulcsok és a nyilvános címek az applikáció által helyileg kerülnek
+        <p>A XMC-kulcsok és a nyilvános címek az applikáció által helyileg kerülnek
         összegyűjtésre és feldolgozásra a tranzakciók lebonyolítása céljából, majd ezek
-        titkosított formában kerülnek továbbításra a Monero hálózatába.
+        titkosított formában kerülnek továbbításra a XMC hálózatába.
         </p>
         <p>Más személyes adatot nem gyűjt az applikáció.</p>
         <p>Az átváltási funkció (opcionális) használata esetén a monerujo a coinmarketcap.com
@@ -40,11 +40,11 @@
         ám az IP-címed is begyűjthető.</p>
         <h2>Applikációengedélyek</h2>
         <ul>
-        <li>INTERNET : csatlakozás a Monero-hálózathoz egy Monero daemon csomóponton keresztül</li>
+        <li>INTERNET : csatlakozás a XMC-hálózathoz egy XMC daemon csomóponton keresztül</li>
         <li>READ_EXTERNAL_STORAGE : az eszközön tárolt tárcafájlok olvasása</li>
         <li>WRITE_EXTERNAL_STORAGE : az eszközön tárolt tárcafájlok írása</li>
         <li>WAKE_LOCK : az eszköz ébren tartása szinkronizálás közben</li>
-        <li>CAMERA : QR-kódok beolvasása Monero fogadásához</li>
+        <li>CAMERA : QR-kódok beolvasása XMC fogadásához</li>
         </ul>
         <h2>Az adatvédelmi irányelvek módosításai</h2>
         <p>Az adatvédelmi irányelveket időnként frissíthetjük. Bármiféle módosításról

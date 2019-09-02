@@ -17,7 +17,7 @@
         <h1>Politică de confidențialitate</h1>
         <p>Această pagină vă informează despre politicile privind colectarea,
         utilizarea și divulgarea informațiilor personale pe care le primim de la
-        utilizatorii aplicației noastre (monerujo: Portofelul Monero ).
+        utilizatorii aplicației noastre (monerujo: Portofelul XMC ).
         </p>
         <p>Folosind această aplicație, sunteți de acord cu colectarea și utilizarea informațiilor
 		în conformitate cu această politică.
@@ -25,9 +25,9 @@
         <h2>Informații colectate</h2>
         <p>Datele personale sunt orice fel de date care ar putea identifica o persoană.
         </p>
-        <p>Cheile de acces Monero și adresele publice ale portofelului sunt colectate și procesate de aplicație
+        <p>Cheile de acces XMC și adresele publice ale portofelului sunt colectate și procesate de aplicație
 		în mod local, în scopul procesării tranzacțiilor și transmisterii acestora în 
-		rețeaua Monero într-o formă criptată.
+		rețeaua XMC într-o formă criptată.
         </p>
         <p>Alte date personale nu sunt colectate de către aplicație.</p>
         <p>În cazul în care folosiți funcția de schimb monetar USD/EUR (facultativ), monerujo preia rata de schimb
@@ -40,11 +40,11 @@
 		adresa de destinație și suma BTC. Adresa ta de IP poate fi colectată.</p>
         <h2>Permisiunile aplicației</h2>
         <ul>
-        <li>INTERNET : Conectarea la rețeaua Monero printr-un nod de asamblare al Monero </li>
+        <li>INTERNET : Conectarea la rețeaua XMC printr-un nod de asamblare al XMC </li>
         <li>READ_EXTERNAL_STORAGE : Citește fișierele portofelului stocate pe dispozitiv</li>
         <li>WRITE_EXTERNAL_STORAGE : Scrie fișierele portofelului stocate pe dispozitiv</li>
         <li>WAKE_LOCK : Menține dispozitivul aprins pentru sincronizare</li>
-        <li>CAMERA : Scanează codurile QR pentru a primi Monero</li>
+        <li>CAMERA : Scanează codurile QR pentru a primi XMC</li>
         </ul>
         <h2>Modificări ale acestei politici de confidențialitate</h2>
         <p>Modificări ale acestei politici de confidențialitate pot aprea din când în când.

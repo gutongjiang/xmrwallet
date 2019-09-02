@@ -63,7 +63,7 @@
 
     <string name="label_send_progress_xmrto_create">Kreante mendon al XMC.TO</string>
     <string name="label_send_progress_xmrto_query">Petante XMC.TO-mendon </string>
-    <string name="label_send_progress_create_tx">Preparante la Monero-transakcion</string>
+    <string name="label_send_progress_create_tx">Preparante la XMC-transakcion</string>
 
     <string name="label_send_progress_queryparms">Petante la XMC.TO-parametrojn</string>
 
@@ -384,5 +384,5 @@
 
     <string name="label_restoreheight">Restaŭralteco</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

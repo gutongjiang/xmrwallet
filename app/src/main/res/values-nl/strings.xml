@@ -63,7 +63,7 @@
 
     <string name="label_send_progress_xmrto_create">XMC.TO-opdracht maken</string>
     <string name="label_send_progress_xmrto_query">XMC.TO-opdracht aanvragen</string>
-    <string name="label_send_progress_create_tx">Monero-transactie voorbereiden</string>
+    <string name="label_send_progress_create_tx">XMC-transactie voorbereiden</string>
 
     <string name="label_send_progress_queryparms">XMC.TO-parameters aanvragen</string>
 
@@ -384,5 +384,5 @@
 
     <string name="label_restoreheight">Herstelpunt</string> <!-- Restore Height -->
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>

@@ -2,7 +2,7 @@
 <resources>
     <string name="help_create_new"><![CDATA[
         <h1>Creează Portofel - Nou</h1>
-        <p>Doar dacă ai nevoie de o adresă nouă pentru Monero!</p>
+        <p>Doar dacă ai nevoie de o adresă nouă pentru XMC!</p>
         <p>Introdu un nume unic al portofelului și o parolă. Parola este folosită pentru a securiza informațiile portofelului
 		de pe dispozitiv. Folosește o parola dificilă - folosește chiar o frază.</p>
         <h2>Notează-ți Semnătura Mnemonică!</h2>
@@ -19,7 +19,7 @@
 
     <string name="help_create_seed"><![CDATA[
         <h1>Creează Portofel prin Semnătură</h1>
-        <p>În cazul în care deții deja o adresă de portofel pentru Monero și dorești să îți recuperați tranzacțiile din baza
+        <p>În cazul în care deții deja o adresă de portofel pentru XMC și dorești să îți recuperați tranzacțiile din baza
 		de date distribuită (blockchain)</p>
         <p>Introdu un nume unic al portofelului și o parolă. Parola este folosită pentru a securiza informațiile portofelului
 		de pe dispozitiv. Folosește o parola dificilă - folosește chiar o frază.</p>
@@ -35,7 +35,7 @@
         <p>Doar dacă încercați recuperarea portofelului folosind cheile de acces!</p>
         <p>Introdu un nume unic al portofelului și o parolă. Parola este folosită pentru a securiza informațiile
 		portofelului de pe dispozitiv. Folosește o parola dificilă - folosește chiar o frază.<p>
-        <p>Introdu adresa portofelului tău Monero în câmpul \"Adresă publică\" , completeaza câmpul \"Cheie vizualizare\" 
+        <p>Introdu adresa portofelului tău XMC în câmpul \"Adresă publică\" , completeaza câmpul \"Cheie vizualizare\" 
 		și  \"Cheie consum\".</p>
         <p>În cazul în care ști monoblocul în care a fost procesată prima ta tranzacție folosind această adresa,
 		te rugăm să o introduci în câmpul \"Număr monobloc\" - lasând acest câmp liber, aplicația va scana
@@ -48,7 +48,7 @@
         <p>Doar în cazul în care doriți să vizualizați tranzacțiile primite!</p>
         <p>Introdu un nume unic al portofelului și o parolă. Parola este folosită pentru a securiza informațiile
 		portofelului de pe dispozitiv. Folosește o parola dificilă - folosește chiar o frază.<p>
-        <p>Introdu adresa portofelului tău Monero în câmpul \"Adresă publică\" și completeaza câmpul
+        <p>Introdu adresa portofelului tău XMC în câmpul \"Adresă publică\" și completeaza câmpul
 		\"Cheie vizualizare\".</p>
         <p>În cazul în care ști monoblocul în care a fost procesată prima ta tranzacție folosind această adresa,
 		te rugăm să o introduci în câmpul \"Număr monobloc\" - dacă lași acest câmp liber, aplicația va scana 
@@ -60,7 +60,7 @@
         <h1>Detaliile Portofelului</h1>
         <h2>Adresa Publică</h2>
         Adresa publică a protofelului reprezintă, ca și exemplu, un cont bancar, număr pe care îl poți împărtăși
-		cu oricine fără a avea teama de a pierde din balanța Monero. Oricine poate trimite Monero către portofelul
+		cu oricine fără a avea teama de a pierde din balanța XMC. Oricine poate trimite XMC către portofelul
 		tău folosind această adresă.
         <h2>Semnătura Mnemonică</h2>
         Aceasta este singura informație necesară pentru recuperarea portofelului tău într-un moment ulterior
@@ -71,14 +71,14 @@
         Cheia ta de vizualizare poate fi folosită pentru a monitoriza tranzacțiile primite fără a da permisiunea
 		de a cheltui fondurile aflate în portofelul tău.
         <h2>Cheie consum</h2>
-        Cheia ta de consum permite oricui să cheltuie fondurile Monero asociate cu portofelul tău, așa că nu
+        Cheia ta de consum permite oricui să cheltuie fondurile XMC asociate cu portofelul tău, așa că nu
 		divulga nimănui această cheie și păstreaz-o în siguranță precum Semnătura Mnemonică.
     ]]></string>
 
     <string name="help_list"><![CDATA[
         <h1>Lista Portofelelor</h1>
         <h2>Nod</h2>
-        <p>Monerujo folosește un dispozitiv la distanță (remote node) pentru a comunica cu Rețeaua Monero
+        <p>Monerujo folosește un dispozitiv la distanță (remote node) pentru a comunica cu Rețeaua XMC
 		fără a descărca și a stoca o copie a întregii baze de date distribuite (blockchain). Poți găsi o listă
 		populară de noduri de asamblare aflate la distanța, sau despre cum să creezi un nod de asamblare personal,
 		la adresa https://moneroworld.com/<p>
@@ -95,7 +95,7 @@
         <h3>Detalii</h3>
         <p>Arată detaliile portofelului, Semnătură &amp; chei de acces.</p>
         <h3>Primește</h3>
-        <p>Creează un cod QR pentru a primi Monero.</p>
+        <p>Creează un cod QR pentru a primi XMC.</p>
         <h3>Redenumește</h3>
         <p>Redenumește portofelul. Copiile de securitate (backups) nu sunt redenumite în această operație.</p>
         <h3>Copie de securitate</h3>
@@ -110,14 +110,14 @@
     <string name="help_tx_details"><![CDATA[
         <h1>Detaliile tranzacției</h1>
         <h2>Destinație</h2>
-        Aceasta este adresa publică la care tu ai trimis Monero
+        Aceasta este adresa publică la care tu ai trimis XMC
         <h2>PaymentID</h2>
         Poți utiliza un ID de plată pentru a identifica suma trimisă între două terțe,
 		acest lucru este complet opțional și privat. Ca exemplu, poate permite identificare
 		într-o activitate comercială pentru a reconcilia pentru un produs pe care l-ați achiziționat.
         <h2>TX ID</h2>
         Acesta este ID-ul Tranzacției și poate fi folosit pentru a identifica tranzacția ta obfuscată
-		pe un explorator al bazei de date distribuită (Blockchain) a Monero, ca cel
+		pe un explorator al bazei de date distribuită (Blockchain) a XMC, ca cel
 		aflat la acest link <a href="https://xmrchain.net/">https://xmrchain.net/</a>
         <h2>TX KEY (Cheia Tranzacției)</h2>
         Aceasta este cheia privată a tranzacției, aceasta este privată și trebuie păstrată ca atare,
@@ -130,7 +130,7 @@
     <string name="help_send"><![CDATA[
         <h1>Trimitere</h1>
         <h2>Adresa destinatarului</h2>
-        <p>Aceasta este adresa publică a destinatarului la care vrei să trimiți Monero, poți copia
+        <p>Aceasta este adresa publică a destinatarului la care vrei să trimiți XMC, poți copia
 		această adresă folosind clipboard-ul, scanând codul QR sau introducând-o manual. Verifică
 		de trei ori această adresă pentru a fi sigur că nu trimiți monedele la o adresă greșită.</p>
         <p>In addition to using an XMR address, you can also use
@@ -147,7 +147,7 @@
 		pentru a reconcilia pentru un produs pe care l-ați achiziționat.<p>
         <h1>Transferul de BTC</h1>
         <h2>XMR.TO</h2>
-        <p>XMR.TO este un serviciu terță parte care care acționeaza ca un schimb valutar între Monero și Bitcoin.
+        <p>XMR.TO este un serviciu terță parte care care acționeaza ca un schimb valutar între XMC și Bitcoin.
         Noi folosim API-ul XMR.TO pentru a integra plățile Bitcoin în Monerujo. Verifică
         https://xmr.to and și decide singur dacă este un serviciu pe care dorești să îl folosești. Echipa Monerujo
         nu este asociată în niciun fel cu XMR.TO și nu te poate ajuta cu serviciile oferite de ei.</p>
@@ -162,7 +162,7 @@
 		un timp limitat - este posibil să observi o numărătoare inversă pe butonul \"Consum\". Rata de schimb poate
 		fi diferită de cea indicată pe ecranele anterioare.</p>
         <h2>Cheia secretă XMR.TO<h2>
-        <p>Din moment ce Monerujo gestionează numai partea Monero din tranzacția ta, cheia secretă a XMR.TO
+        <p>Din moment ce Monerujo gestionează numai partea XMC din tranzacția ta, cheia secretă a XMR.TO
         poate fi folosită pentru a urmari partea Bitcoin a comenzii tale de pe site-ul XMR.TO.</p>
         <p>Te rog notează, că această cheie secretă este validă doar pentru 24 ore din momentul începerii tranzacției!</p>
         <h2>Numerotarea inversă XMR.TO</h2>
@@ -173,7 +173,7 @@
     <string name="help_xmrto"><![CDATA[
         <h1>Transferul de BTC</h1>
         <h2>XMR.TO</h2>
-        <p>XMR.TO este un serviciu terță parte care care acționeaza ca un schimb valutar între Monero și Bitcoin.
+        <p>XMR.TO este un serviciu terță parte care care acționeaza ca un schimb valutar între XMC și Bitcoin.
         Noi folosim API-ul XMR.TO pentru a integra plățile Bitcoin în Monerujo. Verifică
         https://xmr.to and și decide singur dacă este un serviciu pe care dorești să îl folosești.
 		Echipa Monerujo nu este asociată în niciun fel cu XMR.TO și nu te poate ajuta cu serviciile oferite de ei.</p>
@@ -188,7 +188,7 @@
 		un timp limitat - este posibil să observi o numărătoare inversă pe butonul \"Consum\". Rata de schimb poate
 		fi diferită de cea indicată pe ecranele anterioare.</p>
         <h2>Cheia secretă XMR.TO<h2>
-        <p>Din moment ce Monerujo gestionează numai partea Monero din tranzacția ta, cheia secretă a XMR.TO
+        <p>Din moment ce Monerujo gestionează numai partea XMC din tranzacția ta, cheia secretă a XMR.TO
         poate fi folosită pentru a urmari partea Bitcoin a comenzii tale de pe site-ul XMR.TO.</p>
         <p>Te rog notează, că această cheie secretă este validă doar pentru 24 ore din momentul începerii tranzacției!</p>
         <h2>Numerotarea inversă XMR.TO</h2>
@@ -214,18 +214,18 @@
         <p>Street mode can be enabled/disabled in the menu or Gunther\'s head icon. In this mode, your
         balance is not shown on any screen so you can safely use your wallet on the street, a pub or
         other public place. Previous transactions are also hidden. New transactions will be shown, so
-        you can see that you have sent/received sweet Moneroj!</p>
+        you can see that you have sent/received sweet XMCj!</p>
         <h2>Scanarea</h2>
-        Deoarece Monero păstrează lucrurile într-un mod privat, de fiecare dată când deschizi
+        Deoarece XMC păstrează lucrurile într-un mod privat, de fiecare dată când deschizi
 		portofelul Monerujo, noi scanăm baza de date distribuită (blockchain) pentru a vedea dacă
-		ai primit Monero în portofel, această metodă stochează doar informații relevante portofelului tău.
+		ai primit XMC în portofel, această metodă stochează doar informații relevante portofelului tău.
 		Câteodată este necesar un timp îndelungat pentru această operație în cazul în care nu ai fost
 		sincronizat pentru o perioadă îndelungată.
         <h2>Balanța</h2>
         <p><b>Ajutor! Balanța portofelului meu a dispărut sau este neconfirmată!</b><br/>
         Nu te panica! În momentul în care trimițo fonduri din portofelul tău, o parte din balanța
 		va fi arătată ca și neconfirmată. Acest lucru se întâmplă ca urmare a modului în care este
-		schimbat Monero în baza de date distribuită și modul în care se face schimbul.
+		schimbat XMC în baza de date distribuită și modul în care se face schimbul.
 		Citește mai multe despre schimb la adresa https://getmonero.org/resources/moneropedia/change.html
         <h2>Lista tranzacțiilor</h2>
         <p>O listă a tranzacțiilor portofelului. În portofele create folosind cheia de vizualizare,
@@ -239,7 +239,7 @@
         to choose the best one for you!</p>
         <h2>What&apos;s a Node?</h2>
         <p>Monerujo uses a Remote Node (sometimes also called Daemon) to communicate with
-        the Monero Network without having to download and store a copy of the
+        the XMC Network without having to download and store a copy of the
         whole blockchain itself.<p>
         <h2>Node List</h2>
         <p>If the list is empty, you can either add new nodes manually or let Monerujo
@@ -268,16 +268,16 @@
         The &quot;Test Results&quot; will display the blockheight, response time and actual IP used.
         The result may also be an error - usually because the hostname provided is
         not reachable in a sensible amount of time or the credentials are incorrect.
-        Or the hostname/port combination does not point to an actual Monero Node!
+        Or the hostname/port combination does not point to an actual XMC Node!
         Once the test passes (no error) - you&apos;re set to press &quot;OK&quot; to save &amp;
         bookmark this node.</p>
         <h2>Scan for Nodes</h2>
         <p>Additionally, you can scan the network for nodes. Monerujo will start
         scanning the network for Remote Nodes on port 18089. It begins by asking your
-        bookmarked nodes for other peers in the Monero P2P network and then continues
+        bookmarked nodes for other peers in the XMC P2P network and then continues
         by asking those for their peers, and so on. If you have no bookmarked nodes
         (or they don&apos;t tell us about their peers),
-        Monerujo will go straight to the Monero seed nodes hardcoded into Monero. The
+        Monerujo will go straight to the XMC seed nodes hardcoded into XMC. The
         scan stops when it finds 10 remote nodes in total.</p>
     ]]></string>
 

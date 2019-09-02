@@ -48,7 +48,7 @@
     <string name="info_prepare_tx">正在为您的交易做准备工作</string>
     <string name="label_send_progress_xmrto_create">创建XMC.TO订单</string>
     <string name="label_send_progress_xmrto_query">XMC.TO订单查询中</string>
-    <string name="label_send_progress_create_tx">Monero交易准备中</string>
+    <string name="label_send_progress_create_tx">XMC交易准备中</string>
     <string name="label_send_progress_queryparms">XMC.TO参数查询中</string>
     <string name="label_generic_xmrto_error">XMC.TO错误</string>
     <string name="text_generic_xmrto_error">代码: %1$d</string>
@@ -306,5 +306,5 @@
 
     <string name="label_restoreheight">Restore Height</string>
 
-    <string name="toast_ledger_start_app">Start Monero App on %1$s</string>
+    <string name="toast_ledger_start_app">Start XMC App on %1$s</string>
 </resources>
