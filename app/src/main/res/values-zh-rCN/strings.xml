@@ -27,39 +27,39 @@
     <string name="info_ledger_enabled">已支持Ledger硬件钱包，点此了解更多</string>
     <string name="info_xmrto"><![CDATA[
 <b>您输入了一个比特币地址</b><br/>
-<i>您发送的门罗币将通过<b>XMR.TO</b>服务，转换为比特币发送给对方。</i>
+<i>您发送的门罗币将通过<b>XMC.TO</b>服务，转换为比特币发送给对方。</i>
 ]]></string>
-    <string name="info_send_xmrto_success_order_label">XMR.TO订单</string>
+    <string name="info_send_xmrto_success_order_label">XMC.TO订单</string>
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
     <string name="info_send_xmrto_paid">等待确认中</string>
     <string name="info_send_xmrto_unpaid">等待支付中</string>
-    <string name="info_send_xmrto_error">XMR.TO错误(%1$s)</string>
+    <string name="info_send_xmrto_error">XMC.TO错误(%1$s)</string>
     <string name="info_send_xmrto_sent">成功发送比特币！</string>
     <string name="info_send_xmrto_query">查询中&#8230;</string>
     <string name="info_send_xmrto_parms"><![CDATA[
 <b>您可以发送%1$s &#8212; %2$s BTC</b>.<br/>
-<i><u>此刻</u><b>XMR.TO</b>的汇率是<b>%3$s BTC</b> </i>.
+<i><u>此刻</u><b>XMC.TO</b>的汇率是<b>%3$s BTC</b> </i>.
 ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
 <i>至多<b>%1$s BTC</b>将会<u>即刻</u>发送!</i>
 ]]></string>
-    <string name="send_available_btc">余额: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">余额: %2$s BTC (%1$s XMC)</string>
     <string name="info_paymentid_integrated">&#x2714; 支付ID已集成</string>
     <string name="info_prepare_tx">正在为您的交易做准备工作</string>
-    <string name="label_send_progress_xmrto_create">创建XMR.TO订单</string>
-    <string name="label_send_progress_xmrto_query">XMR.TO订单查询中</string>
+    <string name="label_send_progress_xmrto_create">创建XMC.TO订单</string>
+    <string name="label_send_progress_xmrto_query">XMC.TO订单查询中</string>
     <string name="label_send_progress_create_tx">Monero交易准备中</string>
-    <string name="label_send_progress_queryparms">XMR.TO参数查询中</string>
-    <string name="label_generic_xmrto_error">XMR.TO错误</string>
+    <string name="label_send_progress_queryparms">XMC.TO参数查询中</string>
+    <string name="label_generic_xmrto_error">XMC.TO错误</string>
     <string name="text_generic_xmrto_error">代码: %1$d</string>
     <string name="text_retry">再次尝试</string>
     <string name="text_noretry_monero">我们遇到了困难！</string>
-    <string name="text_noretry">抱歉, XMR.TO服务现在似乎不可用</string>
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMR)</string>
+    <string name="text_noretry">抱歉, XMC.TO服务现在似乎不可用</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMC)</string>
     <string name="label_send_btc_xmrto_info">访问xmr.to以获得更多支持</string>
-    <string name="label_send_btc_xmrto_key_lb">密钥\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO密钥</string>
+    <string name="label_send_btc_xmrto_key_lb">密钥\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO密钥</string>
     <string name="label_send_btc_address">比特币收款地址</string>
     <string name="label_send_btc_amount">金额</string>
     <string name="label_send_txid">交易ID</string>
@@ -106,7 +106,7 @@
     <string name="label_watchonly">(只读)</string>
     <string name="label_wallet_receive">收款</string>
     <string name="label_wallet_send">发送</string>
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR未确认</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC未确认</string>
     <string name="service_description">monerujo服务</string>
     <string name="status_synced">已同步：</string>
     <string name="status_remaining">区块剩余</string>
@@ -116,13 +116,13 @@
     <string name="message_camera_not_permitted">不开通的相机权限的话便无法扫描QR码！</string>
     <string name="label_copy_viewkey">查阅密钥</string>
     <string name="label_copy_address">公开地址</string>
-    <string name="label_copy_xmrtokey">XMR.TO密钥</string>
+    <string name="label_copy_xmrtokey">XMC.TO密钥</string>
     <string name="message_copy_viewkey">查阅密钥已复制到剪贴板！</string>
-    <string name="message_copy_xmrtokey">XMR.TO密钥已复制到剪贴板！</string>
+    <string name="message_copy_xmrtokey">XMC.TO密钥已复制到剪贴板！</string>
     <string name="message_copy_address">钱包地址已复制到剪贴板！</string>
     <string name="message_copy_txid">交易ID已复制到剪贴板！</string>
     <string name="message_nocopy">因安全原因，复制功能已被禁用！</string>
-    <string name="message_exchange_failed">无法获取汇率！\n使用XMR/XMR或重新尝试</string>
+    <string name="message_exchange_failed">无法获取汇率！\n使用XMC/XMC或重新尝试</string>
     <string name="generate_title">创建新钱包</string>
     <string name="generate_name_hint">钱包名</string>
     <string name="generate_password_hint">钱包密码</string>
@@ -178,17 +178,17 @@
     <string name="send_address_resolve_openalias">解析OpenAlias&#8230;</string>
     <string name="send_address_no_dnssec">OpenAlias无DNSSEC - 这可能是个假地址</string>
     <string name="send_title">发送</string>
-    <string name="send_available">余额: %1$s XMR</string>
+    <string name="send_available">余额: %1$s XMC</string>
     <string name="send_address_title">地址</string>
     <string name="send_amount_title">金额</string>
     <string name="send_confirm_title">确认</string>
     <string name="send_success_title">完成</string>
     <string name="send_amount_label">金额</string>
-    <string name="send_fee_btc_label">手续费 (XMR)</string>
+    <string name="send_fee_btc_label">手续费 (XMC)</string>
     <string name="send_fee_label">手续费</string>
-    <string name="send_total_btc_label">合计 (XMR)</string>
+    <string name="send_total_btc_label">合计 (XMC)</string>
     <string name="send_total_label">合计</string>
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s 手续费</string>
     <string name="send_create_tx_error_title">创建交易发生错误</string>
     <string name="tx_list_fee">- 手续费 %1$s</string>
@@ -293,7 +293,7 @@
     <string name="send_address_not_bip70">无法解析支付URI</string>
     <string name="send_address_bip70">支付URI已解析 &#x2714;</string>
     <string name="send_address_hint">收款人</string>
-    <string name="xmrto_error_001">XMR.TO离线-请稍后重试</string>
+    <string name="xmrto_error_001">XMC.TO离线-请稍后重试</string>
     <string name="xmrto_error_004">比特币金额超出限制</string>
     <string name="xmrto_error_010">无效或过期的支付URL</string>
     <string name="xmrto_error_012">当前请求数过多</string>

@@ -35,51 +35,51 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Bitcoin-címet adtál meg.</b><br/>
-        <i>XMR-t fogsz küldeni, a fogadó pedig BTC-t fog kapni az <b>XMR.TO</b> szolgáltatásán keresztül.</i>
+        <i>XMC-t fogsz küldeni, a fogadó pedig BTC-t fog kapni az <b>XMC.TO</b> szolgáltatásán keresztül.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">XMR.TO megrendelés</string>
+    <string name="info_send_xmrto_success_order_label">XMC.TO megrendelés</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Megerősítés folyamatban</string>
     <string name="info_send_xmrto_unpaid">Kifizetés folyamatban</string>
-    <string name="info_send_xmrto_error">XMR.TO-hiba (%1$s)</string>
+    <string name="info_send_xmrto_error">XMC.TO-hiba (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC elküldve!</string>
     <string name="info_send_xmrto_query">Lekérdezés&#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Elküldhetsz: %1$s &#8212; %2$s BTC</b>.<br/>
-        <i>Az <b>XMR.TO</b> <u>aktuális</u> árfolyama: <b>%3$s BTC</b></i>.
+        <i>Az <b>XMC.TO</b> <u>aktuális</u> árfolyama: <b>%3$s BTC</b></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>A legfeljebb <b>%1$s BTC</b> nagyságú összegek <u>azonnal</u> elküldésre kerülnek!</i>
     ]]></string>
 
-    <string name="send_available_btc">Egyenleg: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Egyenleg: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Fizetési azonosító integrálva</string>
     <string name="info_prepare_tx">Tranzakció előkészítése</string>
 
-    <string name="label_send_progress_xmrto_create">XMR.TO megrendelés létrehozása</string>
-    <string name="label_send_progress_xmrto_query">XMR.TO megrendelés lekérdezése</string>
+    <string name="label_send_progress_xmrto_create">XMC.TO megrendelés létrehozása</string>
+    <string name="label_send_progress_xmrto_query">XMC.TO megrendelés lekérdezése</string>
     <string name="label_send_progress_create_tx">Monero-tranzakció előkészítése</string>
 
-    <string name="label_send_progress_queryparms">XMR.TO paraméterek lekérdezése</string>
+    <string name="label_send_progress_queryparms">XMC.TO paraméterek lekérdezése</string>
 
-    <string name="label_generic_xmrto_error">XMR.TO HIBA</string>
+    <string name="label_generic_xmrto_error">XMC.TO HIBA</string>
     <string name="text_generic_xmrto_error">Kód: %1$d</string>
 
     <string name="text_retry">Koppints az újrapróbálkozáshoz</string>
     <string name="text_noretry_monero">Itt most elakadtunk!</string>
-    <string name="text_noretry">Ajjaj! Úgy néz ki, az XMR.TO most nem elérhető!</string>
+    <string name="text_noretry">Ajjaj! Úgy néz ki, az XMC.TO most nem elérhető!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Arány: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Arány: %1$s BTC/XMC)</string>
 
-    <string name="label_send_btc_xmrto_info">Segítségért és nyomonkövetésért látogass el az XMR.TO weboldalra</string>
-    <string name="label_send_btc_xmrto_key_lb">Titkos kulcs\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO titkos kulcs</string>
+    <string name="label_send_btc_xmrto_info">Segítségért és nyomonkövetésért látogass el az XMC.TO weboldalra</string>
+    <string name="label_send_btc_xmrto_key_lb">Titkos kulcs\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO titkos kulcs</string>
     <string name="label_send_btc_address">Kedvezményezett BTC-címe</string>
     <string name="label_send_btc_amount">Mennyiség</string>
 
@@ -138,7 +138,7 @@
     <string name="label_wallet_receive">Fogadás</string>
     <string name="label_wallet_send">Küldés</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR függőben</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC függőben</string>
 
     <string name="service_description">monerujo szolgáltatás</string>
 
@@ -152,14 +152,14 @@
 
     <string name="label_copy_viewkey">Figyelőkulcs</string>
     <string name="label_copy_address">Nyilvános cím</string>
-    <string name="label_copy_xmrtokey">XMR.TO kulcs</string>
+    <string name="label_copy_xmrtokey">XMC.TO kulcs</string>
     <string name="message_copy_viewkey">Figyelőkulcs vágólapra másolva!</string>
-    <string name="message_copy_xmrtokey">XMR.TO kulcs vágólapra másolva!</string>
+    <string name="message_copy_xmrtokey">XMC.TO kulcs vágólapra másolva!</string>
     <string name="message_copy_address">Tárcacím vágólapra másolva!</string>
     <string name="message_copy_txid">Tranzakcióazonosító vágólapra másolva!</string>
     <string name="message_nocopy">A másolás biztonsági okokból tiltásra került!</string>
 
-    <string name="message_exchange_failed">Nem sikerült az árfolyam lekérése!\nHasználj XMR/XMR-t vagy próbáld újra</string>
+    <string name="message_exchange_failed">Nem sikerült az árfolyam lekérése!\nHasználj XMC/XMC-t vagy próbáld újra</string>
 
     <string name="generate_title">Tárcalétrehozás</string>
     <string name="generate_name_hint">Tárca neve</string>
@@ -223,19 +223,19 @@
     <string name="send_address_invalid">Érvénytelen cím</string>
     <string name="send_qr_address_invalid">Érvénytelen QR-kód</string>
     <string name="send_title">Küldés</string>
-    <string name="send_available">Egyenleg: %1$s XMR</string>
+    <string name="send_available">Egyenleg: %1$s XMC</string>
     <string name="send_address_title">Cím</string>
     <string name="send_amount_title">Mennyiség</string>
     <string name="send_confirm_title">Megerősítés</string>
     <string name="send_success_title">Kész</string>
 
     <string name="send_amount_label">Mennyiség</string>
-    <string name="send_fee_btc_label">Díj (XMR)</string>
+    <string name="send_fee_btc_label">Díj (XMC)</string>
     <string name="send_fee_label">Díj</string>
-    <string name="send_total_btc_label">Összesen (XMR)</string>
+    <string name="send_total_btc_label">Összesen (XMC)</string>
     <string name="send_total_label">Összesen</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s díj</string>
 
     <string name="send_create_tx_error_title">Tranzakciólétrehozási hiba</string>
@@ -273,7 +273,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR nem egy szám</string>
+    <string name="receive_amount_nan">XMC nem egy szám</string>
 
     <string name="details_alert_message">Bizalmas adatok kerülnek megjelenítésre.\nBizonyosodj meg róla, hogy más nem látja!</string>
     <string name="details_alert_yes">Mehet</string>
@@ -371,7 +371,7 @@
     <string name="send_address_bip70">Resolved Payment URI &#x2714;</string>
     <string name="send_address_hint">Receiver</string>
 
-    <string name="xmrto_error_001">XMR.TO offline - try again later</string>
+    <string name="xmrto_error_001">XMC.TO offline - try again later</string>
     <string name="xmrto_error_004">BTC amount out of bounds</string>
     <string name="xmrto_error_010">Invalid or outdated Payment URL</string>
     <string name="xmrto_error_012">Too many requests</string>

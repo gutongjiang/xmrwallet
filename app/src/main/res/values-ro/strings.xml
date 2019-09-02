@@ -34,51 +34,51 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Ai introdus o adresă de Bitcoin.</b><br/>
-        <i>Vei trimite XMR și destinatarul va primi BTC folosind serviciul <b>XMR.TO</b>.</i>
+        <i>Vei trimite XMC și destinatarul va primi BTC folosind serviciul <b>XMC.TO</b>.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">Ordin XMR.TO</string>
+    <string name="info_send_xmrto_success_order_label">Ordin XMC.TO</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Confirmare în așteptare</string>
     <string name="info_send_xmrto_unpaid">Plată în așteptare</string>
-    <string name="info_send_xmrto_error">Eroare XMR.TO (%1$s)</string>
+    <string name="info_send_xmrto_error">Eroare XMC.TO (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC trimis!</string>
     <string name="info_send_xmrto_query">Interogare &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Poți trimite %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b> îți oferă un curs de <b>%3$s BTC</b> <u>în acest moment</u></i>.
+        <i><b>XMC.TO</b> îți oferă un curs de <b>%3$s BTC</b> <u>în acest moment</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>Sume până la <b>%1$s BTC</b> vor fi trimise <u>instantaneu</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Balanță: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Balanță: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Payment ID integrat</string>
     <string name="info_prepare_tx">Se pregătește tranzacția</string>
 
-    <string name="label_send_progress_xmrto_create">Creearea ordinului XMR.TO</string>
-    <string name="label_send_progress_xmrto_query">Interogare ordin XMR.TO</string>
+    <string name="label_send_progress_xmrto_create">Creearea ordinului XMC.TO</string>
+    <string name="label_send_progress_xmrto_query">Interogare ordin XMC.TO</string>
     <string name="label_send_progress_create_tx">Pregătirea tranzacției Monero</string>
 
     <string name="label_send_progress_queryparms">Interogare parametrii xmr.to</string>
 
-    <string name="label_generic_xmrto_error">EROARE XMR.TO</string>
+    <string name="label_generic_xmrto_error">EROARE XMC.TO</string>
     <string name="text_generic_xmrto_error">Cod: %1$d</string>
 
     <string name="text_retry">Atinge pentru reîncercare</string>
     <string name="text_noretry_monero">Pff.. ne-am blocat cum!</string>
-    <string name="text_noretry">Oh, serviciul XMR.TO este momentan indisponibil!</string>
+    <string name="text_noretry">Oh, serviciul XMC.TO este momentan indisponibil!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Rată: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Rată: %1$s BTC/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Vizitează xmr.to pentru suport &amp; interogare</string>
-    <string name="label_send_btc_xmrto_key_lb">Cheia secretă \nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">Cheia secretă XMR.TO </string>
+    <string name="label_send_btc_xmrto_key_lb">Cheia secretă \nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">Cheia secretă XMC.TO </string>
     <string name="label_send_btc_address">Destinație adresă BTC</string>
     <string name="label_send_btc_amount">Sumă</string>
 
@@ -129,7 +129,7 @@
     <string name="label_wallet_receive">Primește</string>
     <string name="label_wallet_send">Oferă</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR neconfirmat</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC neconfirmat</string>
 
     <string name="service_description">Serviciul monerujo</string>
 
@@ -143,14 +143,14 @@
 
     <string name="label_copy_viewkey">Cheie Vizualizare</string>
     <string name="label_copy_address">Adresă publică</string>
-    <string name="label_copy_xmrtokey">Cheie XMR.TO</string>
+    <string name="label_copy_xmrtokey">Cheie XMC.TO</string>
     <string name="message_copy_viewkey">Cheie vizualizre copiată la clipboard!</string>
-    <string name="message_copy_xmrtokey">Cheie XMR.TO copiată la clipboard!</string>
+    <string name="message_copy_xmrtokey">Cheie XMC.TO copiată la clipboard!</string>
     <string name="message_copy_address">Adresă portofel copiatp la clipboard!</string>
     <string name="message_copy_txid">ID tranzacție copiată la clipboard!</string>
     <string name="message_nocopy">Copierea dezactivată din motive de securitate!</string>
 
-    <string name="message_exchange_failed">Nu pot accesa rata de schimb!\nFolosește XMR/XMR sau reîncearcă</string>
+    <string name="message_exchange_failed">Nu pot accesa rata de schimb!\nFolosește XMC/XMC sau reîncearcă</string>
 
     <string name="generate_title">Creează portofel</string>
     <string name="generate_name_hint">Nume portofel</string>
@@ -198,19 +198,19 @@
     <string name="send_qr_address_invalid">Cod QR de plată invalid</string>
     <string name="send_address_invalid">Adresă invalidă</string>
     <string name="send_title">Trimitere</string>
-    <string name="send_available">Balanță: %1$s XMR</string>
+    <string name="send_available">Balanță: %1$s XMC</string>
     <string name="send_address_title">Adresă</string>
     <string name="send_amount_title">Sumă</string>
     <string name="send_confirm_title">Confirmă</string>
     <string name="send_success_title">Gata</string>
 
     <string name="send_amount_label">Sumă</string>
-    <string name="send_fee_btc_label">Comision (XMR)</string>
+    <string name="send_fee_btc_label">Comision (XMC)</string>
     <string name="send_fee_label">Comision</string>
-    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_btc_label">Total (XMC)</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s Comision</string>
 
     <string name="send_create_tx_error_title">Eroare creare tranzacție</string>
@@ -248,7 +248,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR fără valoare</string>
+    <string name="receive_amount_nan">XMC fără valoare</string>
 
     <string name="details_alert_message">Acum vor fi afișate date sensibile.\nUită-te peste umărul tău!</string>
     <string name="details_alert_yes">Sunt în siguranță</string>
@@ -369,7 +369,7 @@
     <string name="send_address_bip70">Resolved Payment URI &#x2714;</string>
     <string name="send_address_hint">Receiver</string>
 
-    <string name="xmrto_error_001">XMR.TO offline - try again later</string>
+    <string name="xmrto_error_001">XMC.TO offline - try again later</string>
     <string name="xmrto_error_004">BTC amount out of bounds</string>
     <string name="xmrto_error_010">Invalid or outdated Payment URL</string>
     <string name="xmrto_error_012">Too many requests</string>

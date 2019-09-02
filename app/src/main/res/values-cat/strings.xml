@@ -35,51 +35,51 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Heu introduït una adreça de Bitcoin.</b><br/>
-        <i>Està a punt d\'enviar XMR i el destinatari rebrà BTC a través del servei <b>XMR.TO</b> service.</i>
+        <i>Està a punt d\'enviar XMC i el destinatari rebrà BTC a través del servei <b>XMC.TO</b> service.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">Ordre XMR.TO</string>
+    <string name="info_send_xmrto_success_order_label">Ordre XMC.TO</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Confirmació Pendent</string>
     <string name="info_send_xmrto_unpaid">Pagament Pendent</string>
-    <string name="info_send_xmrto_error">Error de XMR.TO (%1$s)</string>
+    <string name="info_send_xmrto_error">Error de XMC.TO (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC Enviats!</string>
     <string name="info_send_xmrto_query">Consultant &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>You can send %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b> està oferint una tasa de canvi de <b>%3$s BTC</b> <u>en aquest moment</u></i>.
+        <i><b>XMC.TO</b> està oferint una tasa de canvi de <b>%3$s BTC</b> <u>en aquest moment</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>Quantitats fins a <b>%1$s BTC</b> seran enviats <u>a l\'instant</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Balanç: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Balanç: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; ID de pagment integrat</string>
     <string name="info_prepare_tx">Preparant la seva transacció</string>
 
-    <string name="label_send_progress_xmrto_create">Creant ordre XMR.TO</string>
-    <string name="label_send_progress_xmrto_query">Consultant ordre XMR.TO</string>
+    <string name="label_send_progress_xmrto_create">Creant ordre XMC.TO</string>
+    <string name="label_send_progress_xmrto_query">Consultant ordre XMC.TO</string>
     <string name="label_send_progress_create_tx">Preparant transacció Monero</string>
 
-    <string name="label_send_progress_queryparms">Consultant paràmetres XMR.TO</string>
+    <string name="label_send_progress_queryparms">Consultant paràmetres XMC.TO</string>
 
-    <string name="label_generic_xmrto_error">ERROR XMR.TO</string>
+    <string name="label_generic_xmrto_error">ERROR XMC.TO</string>
     <string name="text_generic_xmrto_error">Codi: %1$d</string>
 
     <string name="text_retry">Premi aquí per tornar-ho a intentar</string>
     <string name="text_noretry_monero">Vatua l\'olla! Sembla ser que estem encallats!</string>
-    <string name="text_noretry">Ups, sembla que XMR.TO no està disponible ara mateix!</string>
+    <string name="text_noretry">Ups, sembla que XMC.TO no està disponible ara mateix!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Canvi: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Canvi: %1$s BTC/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Visita xmr.to per suport i seguiment</string>
-    <string name="label_send_btc_xmrto_key_lb">Clau secreta\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">Clau secreta XMR.TO</string>
+    <string name="label_send_btc_xmrto_key_lb">Clau secreta\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">Clau secreta XMC.TO</string>
     <string name="label_send_btc_address">Adreça BTC de destí</string>
     <string name="label_send_btc_amount">Quantitat</string>
 
@@ -140,7 +140,7 @@
     <string name="label_wallet_receive">Rebre</string>
     <string name="label_wallet_send">Enviar</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR sense confirmar</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC sense confirmar</string>
 
     <string name="service_description">Servei de monerujo</string>
 
@@ -154,14 +154,14 @@
 
     <string name="label_copy_viewkey">Clau de visualització</string>
     <string name="label_copy_address">Adreça Pública</string>
-    <string name="label_copy_xmrtokey">Clau de XMR.TO</string>
+    <string name="label_copy_xmrtokey">Clau de XMC.TO</string>
     <string name="message_copy_viewkey">Clau de visualització copiada al porta-retalls!</string>
-    <string name="message_copy_xmrtokey">Clau de XMR.TO copiada al porta-retalls!</string>
+    <string name="message_copy_xmrtokey">Clau de XMC.TO copiada al porta-retalls!</string>
     <string name="message_copy_address">Adreça del portamonedes copiada al porta-retalls!</string>
     <string name="message_copy_txid">ID de transacció copiada al porta-retalls!</string>
     <string name="message_nocopy">S\'ha inhabilitat la funció de copiar per raons de seguretat!</string>
 
-    <string name="message_exchange_failed">No s\'ha pogut obtenir el tipus de canvi!\nUtilitzi XMR/XMR o torni-ho a intentar</string>
+    <string name="message_exchange_failed">No s\'ha pogut obtenir el tipus de canvi!\nUtilitzi XMC/XMC o torni-ho a intentar</string>
 
     <string name="generate_title">Crear portamonedes</string>
     <string name="generate_name_hint">Nom del portamonedes</string>
@@ -229,19 +229,19 @@
     <string name="send_address_resolve_openalias">Resolent OpenAlias&#8230;</string>
     <string name="send_address_no_dnssec">OpenAlias sense DNSSEC - l\'adreça pot ser compromesa</string>
     <string name="send_title">Enviar</string>
-    <string name="send_available">Balanç: %1$s XMR</string>
+    <string name="send_available">Balanç: %1$s XMC</string>
     <string name="send_address_title">Adreça</string>
     <string name="send_amount_title">Quantitat</string>
     <string name="send_confirm_title">Confirmar</string>
     <string name="send_success_title">Fet</string>
 
     <string name="send_amount_label">Quantitat</string>
-    <string name="send_fee_btc_label">Comissió (XMR)</string>
+    <string name="send_fee_btc_label">Comissió (XMC)</string>
     <string name="send_fee_label">Comissió</string>
-    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_btc_label">Total (XMC)</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s Comissió</string>
 
     <string name="send_create_tx_error_title">Error creant la transacció</string>
@@ -280,7 +280,7 @@
 
     <string name="receive_amount_too_big">Màx. %1$s</string>
     <string name="receive_amount_negative">Mín. 0</string>
-    <string name="receive_amount_nan">XMR no és un número</string>
+    <string name="receive_amount_nan">XMC no és un número</string>
 
     <string name="details_alert_message">Ara es mostrarà informació delicada.\nEsteu a l\'aguait!</string>
     <string name="details_alert_yes">Estic segur</string>
@@ -367,7 +367,7 @@
     <string name="send_address_bip70">S\'ha resolt el pagament URI &#x2714;</string>
     <string name="send_address_hint">Receptor</string>
 
-    <string name="xmrto_error_001">XMR.TO fora de línia - intenti-ho més tard</string>
+    <string name="xmrto_error_001">XMC.TO fora de línia - intenti-ho més tard</string>
     <string name="xmrto_error_004">Quantitat de BTC fora dels límits</string>
     <string name="xmrto_error_010">URL de pagament no vàlida o obsoleta</string>
     <string name="xmrto_error_012">Massa peticions</string>

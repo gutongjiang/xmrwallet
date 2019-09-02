@@ -35,52 +35,52 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Vložil si Bitcoin adresu.</b><br/>
-        <i>Pošleš XMR a adresát dostane BTC cez službu <b>XMR.TO</b>.</i>
+        <i>Pošleš XMC a adresát dostane BTC cez službu <b>XMC.TO</b>.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">XMR.TO Objednávka</string>
+    <string name="info_send_xmrto_success_order_label">XMC.TO Objednávka</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
 
     <string name="info_send_xmrto_paid">Čaká na Potvrdenie</string>
     <string name="info_send_xmrto_unpaid">Čakajúca Platba</string>
-    <string name="info_send_xmrto_error">XMR.TO Chyba (%1$s)</string>
+    <string name="info_send_xmrto_error">XMC.TO Chyba (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC Odoslané!</string>
     <string name="info_send_xmrto_query">Zisťujem &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Môžeš poslať %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b> ti dáva výmenný kurz of <b>%3$s BTC</b> <u>práve teraz</u></i>.
+        <i><b>XMC.TO</b> ti dáva výmenný kurz of <b>%3$s BTC</b> <u>práve teraz</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>čiastka do <b>%1$s BTC</b> bude odoslaná <u>okamžite</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Zostatok: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Zostatok: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Payment ID integrované</string>
     <string name="info_prepare_tx">Pripravujem transakciu</string>
 
-    <string name="label_send_progress_xmrto_create">Vytváram objednávku na XMR.TO</string>
-    <string name="label_send_progress_xmrto_query">Pýtam sa na objednávku XMR.TO</string>
+    <string name="label_send_progress_xmrto_create">Vytváram objednávku na XMC.TO</string>
+    <string name="label_send_progress_xmrto_query">Pýtam sa na objednávku XMC.TO</string>
     <string name="label_send_progress_create_tx">Pripravujem Monero transakciu</string>
 
-    <string name="label_send_progress_queryparms">Posielam XMR.TO parametre</string>
+    <string name="label_send_progress_queryparms">Posielam XMC.TO parametre</string>
 
-    <string name="label_generic_xmrto_error">CHYBA XMR.TO</string>
+    <string name="label_generic_xmrto_error">CHYBA XMC.TO</string>
     <string name="text_generic_xmrto_error">Kód chyby: %1$d</string>
 
     <string name="text_retry">Klepni pre opakovanie</string>
     <string name="text_noretry_monero">Uviazli sme tu!</string>
-    <string name="text_noretry">Myslím, že služba XMR.TO nie je momentálne dostupná!</string>
+    <string name="text_noretry">Myslím, že služba XMC.TO nie je momentálne dostupná!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Kurz: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Kurz: %1$s BTC/XMC)</string>
 
-    <string name="label_send_btc_xmrto_info">Navštív XMR.TO pre podporu &amp; tracking</string>
-    <string name="label_send_btc_xmrto_key_lb">Tajný kľúč\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO Tajný kľúč</string>
+    <string name="label_send_btc_xmrto_info">Navštív XMC.TO pre podporu &amp; tracking</string>
+    <string name="label_send_btc_xmrto_key_lb">Tajný kľúč\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO Tajný kľúč</string>
     <string name="label_send_btc_address">Cieľová BTC Adresa</string>
     <string name="label_send_btc_amount">Čiastka</string>
 
@@ -139,7 +139,7 @@
     <string name="label_wallet_receive">Prijať</string>
     <string name="label_wallet_send">Poslať</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR nepotvrdených</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC nepotvrdených</string>
 
     <string name="service_description">monerujo Service</string>
 
@@ -153,14 +153,14 @@
 
     <string name="label_copy_viewkey">Prezerací Kľúč</string>
     <string name="label_copy_address">Verejná Adresa</string>
-    <string name="label_copy_xmrtokey">Kľúč XMR.TO</string>
+    <string name="label_copy_xmrtokey">Kľúč XMC.TO</string>
     <string name="message_copy_viewkey">Prezerací Kľúč skopírovaný do schránky!</string>
-    <string name="message_copy_xmrtokey">XMR.TO kľúč skopírovaný do schránky!</string>
+    <string name="message_copy_xmrtokey">XMC.TO kľúč skopírovaný do schránky!</string>
     <string name="message_copy_address">Adresa peňaženky skopírovaná do schránky!</string>
     <string name="message_copy_txid">ID Transakcie skopírované do schránky!</string>
     <string name="message_nocopy">Kopírovanie vypnuté z bezpečnostných dôvodov!</string>
 
-    <string name="message_exchange_failed">Neviem získať výmenný kurz!\nSkús XMR/XMR alebo vyskúšaj neskôr</string>
+    <string name="message_exchange_failed">Neviem získať výmenný kurz!\nSkús XMC/XMC alebo vyskúšaj neskôr</string>
 
     <string name="generate_title">Vytvor Peňaženku</string>
     <string name="generate_name_hint">Názov Peňaženky</string>
@@ -221,19 +221,19 @@
     <string name="send_qr_address_invalid">Neplatný QR Kód Platby</string>
     <string name="send_address_invalid">Neplatná Adresa</string>
     <string name="send_title">Poslať</string>
-    <string name="send_available">Zostatok: %1$s XMR</string>
+    <string name="send_available">Zostatok: %1$s XMC</string>
     <string name="send_address_title">Adresa</string>
     <string name="send_amount_title">Čiastka</string>
     <string name="send_confirm_title">Potvrdiť</string>
     <string name="send_success_title">Hotovo</string>
 
     <string name="send_amount_label">Čiastka</string>
-    <string name="send_fee_btc_label">poplatok (XMR)</string>
+    <string name="send_fee_btc_label">poplatok (XMC)</string>
     <string name="send_fee_label">poplatok</string>
-    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_btc_label">Total (XMC)</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s poplatok</string>
 
     <string name="send_create_tx_error_title">Vytvor Chybu Transakcie</string>
@@ -271,7 +271,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR nie číslo</string>
+    <string name="receive_amount_nan">XMC nie číslo</string>
 
     <string name="details_alert_message">Budú zobrazené citlivé dáta.\nPozri cez plece!</string>
     <string name="details_alert_yes">Som v bezpečí</string>
@@ -370,7 +370,7 @@
     <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
     <string name="send_address_hint">Príjemca</string>
 
-    <string name="xmrto_error_001">XMR.TO je offline - skús neskôr</string>
+    <string name="xmrto_error_001">XMC.TO je offline - skús neskôr</string>
     <string name="xmrto_error_004">Množstvo BTC je mimo rámca</string>
     <string name="xmrto_error_010">Neplatná alebo stará URL platby</string>
     <string name="xmrto_error_012">Príliš veľa požiadaviek</string>

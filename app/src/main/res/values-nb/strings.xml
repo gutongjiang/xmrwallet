@@ -35,50 +35,50 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Du skrev inn en Bitcoin addresse.</b><br/>
-        <i>Du vil sende XMR og mottakeren vil få BTC gjennom <b>XMR.TO</b> tjenesten.</i>
+        <i>Du vil sende XMC og mottakeren vil få BTC gjennom <b>XMC.TO</b> tjenesten.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">XMR.TO Ordre</string>
+    <string name="info_send_xmrto_success_order_label">XMC.TO Ordre</string>
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Bekreftelse venter</string>
     <string name="info_send_xmrto_unpaid">Betaling venter</string>
-    <string name="info_send_xmrto_error">XMR.TO error (%1$s)</string>
+    <string name="info_send_xmrto_error">XMC.TO error (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC sendt!</string>
     <string name="info_send_xmrto_query">Spør &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Du kan sende %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b> gir deg en vekslingskurs på <b>%3$s BTC</b> <u>akkurat nå</u></i>.
+        <i><b>XMC.TO</b> gir deg en vekslingskurs på <b>%3$s BTC</b> <u>akkurat nå</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>Mengder opp til <b>%1$s BTC</b> vil bli sendt <u>umiddelbart</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Saldo: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Saldo: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Betalings ID integrert</string>
     <string name="info_prepare_tx">Forbereder din transaksjon</string>
 
-    <string name="label_send_progress_xmrto_create">Lager XMR.TO ordre</string>
-    <string name="label_send_progress_xmrto_query">Spør etter XMR.TO ordre</string>
+    <string name="label_send_progress_xmrto_create">Lager XMC.TO ordre</string>
+    <string name="label_send_progress_xmrto_query">Spør etter XMC.TO ordre</string>
     <string name="label_send_progress_create_tx">Forbereder Monero transaksjon</string>
 
     <string name="label_send_progress_queryparms">Spør etter xmr.to parametre</string>
 
-    <string name="label_generic_xmrto_error">XMR.TO ERROR</string>
+    <string name="label_generic_xmrto_error">XMC.TO ERROR</string>
     <string name="text_generic_xmrto_error">Kode: %1$d</string>
 
     <string name="text_retry">Trykk for å prøve igjen</string>
     <string name="text_noretry_monero">Nå sitter vi fast her!</string>
-    <string name="text_noretry">Ops, det ser ikke ut til at XMR.TO er tilgjengelig for øyeblikket!</string>
+    <string name="text_noretry">Ops, det ser ikke ut til at XMC.TO er tilgjengelig for øyeblikket!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Besøk xmr.to for støtte og sporing</string>
-    <string name="label_send_btc_xmrto_key_lb">Hemmelig nøkkel\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO Hemmelig nøkkel</string>
+    <string name="label_send_btc_xmrto_key_lb">Hemmelig nøkkel\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO Hemmelig nøkkel</string>
     <string name="label_send_btc_address">BTC destinasjonsadresse</string>
     <string name="label_send_btc_amount">Mengde</string>
 
@@ -138,7 +138,7 @@
     <string name="label_wallet_receive">Motta</string>
     <string name="label_wallet_send">Gi</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR ubekrefta</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC ubekrefta</string>
 
     <string name="service_description">monerujo tjeneste</string>
 
@@ -152,14 +152,14 @@
 
     <string name="label_copy_viewkey">View-nøkkel</string>
     <string name="label_copy_address">Offentlig adresse</string>
-    <string name="label_copy_xmrtokey">XMR.TO nøkkel</string>
+    <string name="label_copy_xmrtokey">XMC.TO nøkkel</string>
     <string name="message_copy_viewkey">View-nøkkel kopiert til utklippstavle!</string>
-    <string name="message_copy_xmrtokey">XMR.TO-nøkkel kopiert til utklippstavle!</string>
+    <string name="message_copy_xmrtokey">XMC.TO-nøkkel kopiert til utklippstavle!</string>
     <string name="message_copy_address">Lommebokadresse kopiert til utklippstavle!</string>
     <string name="message_copy_txid">Transaksjons-ID kopiert til utklippstavle!</string>
     <string name="message_nocopy">Kopiering skrudd av for sikkerhetsgrunner!</string>
 
-    <string name="message_exchange_failed">Kan ikke hente vekslingskurs!\nBruk XMR/XMR eller prøv igjen</string>
+    <string name="message_exchange_failed">Kan ikke hente vekslingskurs!\nBruk XMC/XMC eller prøv igjen</string>
 
     <string name="generate_title">Lag lommebok</string>
     <string name="generate_name_hint">Lommeboknavn</string>
@@ -223,19 +223,19 @@
     <string name="send_qr_address_invalid">Ikke en gyldig betalings-QR-kode</string>
     <string name="send_address_invalid">Ikke en gyldig adresse</string>
     <string name="send_title">Send</string>
-    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_available">Saldo: %1$s XMC</string>
     <string name="send_address_title">Adresse</string>
     <string name="send_amount_title">Mengde</string>
     <string name="send_confirm_title">Bekreft</string>
     <string name="send_success_title">Ferdig</string>
 
     <string name="send_amount_label">Antall</string>
-    <string name="send_fee_btc_label">Avgift (XMR)</string>
+    <string name="send_fee_btc_label">Avgift (XMC)</string>
     <string name="send_fee_label">Avgift</string>
-    <string name="send_total_btc_label">Totalt (XMR)</string>
+    <string name="send_total_btc_label">Totalt (XMC)</string>
     <string name="send_total_label">Totalt</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s avgift</string>
 
     <string name="send_create_tx_error_title">Error med å lage transaksjon</string>
@@ -273,7 +273,7 @@
 
     <string name="receive_amount_too_big">Maks. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR ikke et tall</string>
+    <string name="receive_amount_nan">XMC ikke et tall</string>
 
     <string name="details_alert_message">Sensitive data vil nå bli vist.\nSe over skulderen din!</string>
     <string name="details_alert_yes">Jeg er trygg</string>
@@ -369,7 +369,7 @@
     <string name="send_address_bip70">Resolved Payment URI &#x2714;</string>
     <string name="send_address_hint">Receiver</string>
 
-    <string name="xmrto_error_001">XMR.TO offline - try again later</string>
+    <string name="xmrto_error_001">XMC.TO offline - try again later</string>
     <string name="xmrto_error_004">BTC amount out of bounds</string>
     <string name="xmrto_error_010">Invalid or outdated Payment URL</string>
     <string name="xmrto_error_012">Too many requests</string>

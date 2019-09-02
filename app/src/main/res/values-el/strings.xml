@@ -34,51 +34,51 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Έβαλες μια διεύθυνση bitcoin.</b><br/>
-        <i>Θα στείλεις XMR και ο παραλήπτης θα πάρει BTC μέσο της υπηρεσίας <b>XMR.TO</b>.</i>
+        <i>Θα στείλεις XMC και ο παραλήπτης θα πάρει BTC μέσο της υπηρεσίας <b>XMC.TO</b>.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">Εντολή XMR.TO</string>
+    <string name="info_send_xmrto_success_order_label">Εντολή XMC.TO</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Επιβεβαίωση Εκκρεμεί</string>
     <string name="info_send_xmrto_unpaid">Πληρωμή σε εκκρεμότητα</string>
-    <string name="info_send_xmrto_error">XMR.TO Σφάλμα (%1$s)</string>
+    <string name="info_send_xmrto_error">XMC.TO Σφάλμα (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC Αποστάλθηκαν!</string>
     <string name="info_send_xmrto_query">Αίτηση &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Μπορείς να στείλεις %1$s &#8212; %2$s BTC</b>.<br/>
-        <i>Το <b>XMR.TO</b> σου δίνει ισοτιμία ανταλλαγής <b>%3$s BTC</b> <u>αυτή τη στιγμή</u></i>.
+        <i>Το <b>XMC.TO</b> σου δίνει ισοτιμία ανταλλαγής <b>%3$s BTC</b> <u>αυτή τη στιγμή</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>Ποσά μέχρι <b>%1$s BTC</b> θα σταλούν <u>άμεσα</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Σύνολο: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Σύνολο: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; ID πληρωμής ενσωματωμένο</string>
     <string name="info_prepare_tx">Προετοιμασία της συναλλαγής σου</string>
 
-    <string name="label_send_progress_xmrto_create">Δημιουργία εντολής με XMR.TO</string>
-    <string name="label_send_progress_xmrto_query">Αίτηση εντολής στο XMR.TO</string>
+    <string name="label_send_progress_xmrto_create">Δημιουργία εντολής με XMC.TO</string>
+    <string name="label_send_progress_xmrto_query">Αίτηση εντολής στο XMC.TO</string>
     <string name="label_send_progress_create_tx">Προετοιμασά συναλλαγής Monero</string>
 
     <string name="label_send_progress_queryparms">Αίτηση στο xmr.to για παραμέτρους</string>
 
-    <string name="label_generic_xmrto_error">XMR.TO ΣΦΑΛΜΑ</string>
+    <string name="label_generic_xmrto_error">XMC.TO ΣΦΑΛΜΑ</string>
     <string name="text_generic_xmrto_error">Κωδικός σφάλματος: %1$d</string>
 
     <string name="text_retry">Πάτησε για να προσπαθήσεις ξανά</string>
     <string name="text_noretry_monero">Τώρα έχουμε κολλήσει εδώ!</string>
-    <string name="text_noretry">Ωχ,το XMR.TO φαίνεται να μην ειναι προσωρινά διαθέσιμο!</string>
+    <string name="text_noretry">Ωχ,το XMC.TO φαίνεται να μην ειναι προσωρινά διαθέσιμο!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Επίσκεψη στο xmr.to για υποστήριξη &amp; με εντοπισμό συναλλαγής</string>
-    <string name="label_send_btc_xmrto_key_lb">Μυστικό Κλειδί\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO Μυστικό Κλειδί</string>
+    <string name="label_send_btc_xmrto_key_lb">Μυστικό Κλειδί\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO Μυστικό Κλειδί</string>
     <string name="label_send_btc_address">BTC Διεύθυνση Παραλήπτη</string>
     <string name="label_send_btc_amount">Ποσό</string>
 
@@ -129,7 +129,7 @@
     <string name="label_wallet_receive">Λήψη</string>
     <string name="label_wallet_send">Αποστολή</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR μη επιβεβαιωμένα</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC μη επιβεβαιωμένα</string>
 
     <string name="service_description">Υπηρεσία monerujo</string>
 
@@ -143,14 +143,14 @@
 
     <string name="label_copy_viewkey">Κλειδί Προβολής(View Key)</string>
     <string name="label_copy_address">Δημόσια Διεύθυνση(Public Address)</string>
-    <string name="label_copy_xmrtokey">Κλειδή XMR.TO</string>
+    <string name="label_copy_xmrtokey">Κλειδή XMC.TO</string>
     <string name="message_copy_viewkey">Το Κλειδί Προβολής αντιγράφηκε στο πρόχειρο!</string>
-    <string name="message_copy_xmrtokey">Το Κλειδή XMR.TO αντιγράφηκε στο πρόχειρο!</string>
+    <string name="message_copy_xmrtokey">Το Κλειδή XMC.TO αντιγράφηκε στο πρόχειρο!</string>
     <string name="message_copy_address">Η διύθυνση πορτοφολιού αντιγράφηκε στο πρόχειρο!</string>
     <string name="message_copy_txid">Το ID συναλλαγής αντιγράφηκε στο πρόχειρο!</string>
     <string name="message_nocopy">Η αντιγραφή είναι απενεργοποιημένη για λόγους ασφαλείας!</string>
 
-    <string name="message_exchange_failed">Δεν είναι δυνατή η συναλλαγματική ισοτιμία! Χρησιμοποίησε XMR/XMR ή προσπάθησε ξανά</string>
+    <string name="message_exchange_failed">Δεν είναι δυνατή η συναλλαγματική ισοτιμία! Χρησιμοποίησε XMC/XMC ή προσπάθησε ξανά</string>
 
     <string name="generate_title">Δημιουργία Πορτοφολιού</string>
     <string name="generate_name_hint">Όνομα Πορτοφολιού</string>
@@ -198,19 +198,19 @@
     <string name="send_qr_address_invalid">Δεν είναι έγκυρος κωδικός QR πληρωμής</string>
     <string name="send_address_invalid">Δεν είναι έγκυρη η διεύθυνση</string>
     <string name="send_title">Αποστολή</string>
-    <string name="send_available">Υπόλοιπο: %1$s XMR</string>
+    <string name="send_available">Υπόλοιπο: %1$s XMC</string>
     <string name="send_address_title">Διεύθυνση</string>
     <string name="send_amount_title">Ποσό</string>
     <string name="send_confirm_title">Επιβεβαίωση</string>
     <string name="send_success_title">Έγινε</string>
 
     <string name="send_amount_label">Ποσό</string>
-    <string name="send_fee_btc_label">Κόμιστρο (XMR)</string>
+    <string name="send_fee_btc_label">Κόμιστρο (XMC)</string>
     <string name="send_fee_label">Κόμιστρο</string>
-    <string name="send_total_btc_label">Σύνολο (XMR)</string>
+    <string name="send_total_btc_label">Σύνολο (XMC)</string>
     <string name="send_total_label">Σύνολο</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s Κόμιστρο</string>
 
     <string name="send_create_tx_error_title">Σφάλμα Δημιουργίας Συναλλαγής</string>
@@ -248,7 +248,7 @@
 
     <string name="receive_amount_too_big">Μέγιστο %1$s</string>
     <string name="receive_amount_negative">Ελάχιστο 0</string>
-    <string name="receive_amount_nan">XMR δεν υπάρχει αριθμός</string>
+    <string name="receive_amount_nan">XMC δεν υπάρχει αριθμός</string>
 
     <string name="details_alert_message">Θα εμφανιστούν τώρα ευαίσθητα δεδομένα. \nΠρόσεχε ποιος είναι πίσω σου!</string>
     <string name="details_alert_yes">Είμαι ασφαλής</string>
@@ -369,7 +369,7 @@
     <string name="send_address_bip70">Resolved Payment URI &#x2714;</string>
     <string name="send_address_hint">Receiver</string>
 
-    <string name="xmrto_error_001">XMR.TO offline - try again later</string>
+    <string name="xmrto_error_001">XMC.TO offline - try again later</string>
     <string name="xmrto_error_004">BTC amount out of bounds</string>
     <string name="xmrto_error_010">Invalid or outdated Payment URL</string>
     <string name="xmrto_error_012">Too many requests</string>

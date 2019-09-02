@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
-    <string name="app_name" translatable="false">monerujo</string>
+    <string name="app_name" translatable="false">XMC</string>
     <string name="wallet_activity_name">Wallet</string>
 
     <string name="menu_about">About</string>
@@ -36,51 +36,51 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>You entered a Bitcoin address.</b><br/>
-        <i>You&apos;ll send XMR and the receiver will get BTC using the <b>XMR.TO</b> service.</i>
+        <i>You&apos;ll send XMC and the receiver will get BTC using the <b>XMC.TO</b> service.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">XMR.TO Order</string>
+    <string name="info_send_xmrto_success_order_label">XMC.TO Order</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Confirmation Pending</string>
     <string name="info_send_xmrto_unpaid">Payment Pending</string>
-    <string name="info_send_xmrto_error">XMR.TO Error (%1$s)</string>
+    <string name="info_send_xmrto_error">XMC.TO Error (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC Sent!</string>
     <string name="info_send_xmrto_query">Querying &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>You can send %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b> is giving you an exchange rate of <b>%3$s BTC</b> <u>right now</u></i>.
+        <i><b>XMC.TO</b> is giving you an exchange rate of <b>%3$s BTC</b> <u>right now</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>Amounts up to <b>%1$s BTC</b> will be sent <u>instantly</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Balance: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Balance: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Payment ID integrated</string>
     <string name="info_prepare_tx">Preparing your transaction</string>
 
-    <string name="label_send_progress_xmrto_create">Creating XMR.TO Order</string>
-    <string name="label_send_progress_xmrto_query">Querying XMR.TO Order</string>
+    <string name="label_send_progress_xmrto_create">Creating XMC.TO Order</string>
+    <string name="label_send_progress_xmrto_query">Querying XMC.TO Order</string>
     <string name="label_send_progress_create_tx">Preparing Monero Transaction</string>
 
-    <string name="label_send_progress_queryparms">Querying XMR.TO parameters</string>
+    <string name="label_send_progress_queryparms">Querying XMC.TO parameters</string>
 
-    <string name="label_generic_xmrto_error">XMR.TO ERROR</string>
+    <string name="label_generic_xmrto_error">XMC.TO ERROR</string>
     <string name="text_generic_xmrto_error">Code: %1$d</string>
 
     <string name="text_retry">Touch to retry</string>
     <string name="text_noretry_monero">Now we\'re stuck here!</string>
-    <string name="text_noretry">Uh-oh, XMR.TO does not seem be available right now!</string>
+    <string name="text_noretry">Uh-oh, XMC.TO does not seem be available right now!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Rate: %1$s BTC/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Visit xmr.to for support &amp; tracking</string>
-    <string name="label_send_btc_xmrto_key_lb">Secret Key\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO Secret Key</string>
+    <string name="label_send_btc_xmrto_key_lb">Secret Key\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO Secret Key</string>
     <string name="label_send_btc_address">Destination BTC Address</string>
     <string name="label_send_btc_amount">Amount</string>
 
@@ -143,7 +143,7 @@
     <string name="label_wallet_receive">Receive</string>
     <string name="label_wallet_send">Give</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR unconfirmed</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC unconfirmed</string>
 
     <string name="service_description">monerujo Service</string>
 
@@ -157,14 +157,14 @@
 
     <string name="label_copy_viewkey">View Key</string>
     <string name="label_copy_address">Public Address</string>
-    <string name="label_copy_xmrtokey">XMR.TO Key</string>
+    <string name="label_copy_xmrtokey">XMC.TO Key</string>
     <string name="message_copy_viewkey">View Key copied to clipboard!</string>
-    <string name="message_copy_xmrtokey">XMR.TO Key copied to clipboard!</string>
+    <string name="message_copy_xmrtokey">XMC.TO Key copied to clipboard!</string>
     <string name="message_copy_address">Wallet Address copied to clipboard!</string>
     <string name="message_copy_txid">Transaction ID copied to clipboard!</string>
     <string name="message_nocopy">Copy disabled for security reasons!</string>
 
-    <string name="message_exchange_failed">Cannot get exchange rate!\nUse XMR/XMR or try again</string>
+    <string name="message_exchange_failed">Cannot get exchange rate!\nUse XMC/XMC or try again</string>
 
     <string name="generate_title">Create Wallet</string>
     <string name="generate_name_hint">Wallet Name</string>
@@ -234,19 +234,19 @@
     <string name="send_address_resolve_openalias">Resolving OpenAlias&#8230;</string>
     <string name="send_address_no_dnssec">OpenAlias without DNSSEC - address may be spoofed</string>
     <string name="send_title">Send</string>
-    <string name="send_available">Balance: %1$s XMR</string>
+    <string name="send_available">Balance: %1$s XMC</string>
     <string name="send_address_title">Address</string>
     <string name="send_amount_title">Amount</string>
     <string name="send_confirm_title">Confirm</string>
     <string name="send_success_title">Done</string>
 
     <string name="send_amount_label">Amount</string>
-    <string name="send_fee_btc_label">Fee (XMR)</string>
+    <string name="send_fee_btc_label">Fee (XMC)</string>
     <string name="send_fee_label">Fee</string>
-    <string name="send_total_btc_label">Total (XMR)</string>
+    <string name="send_total_btc_label">Total (XMC)</string>
     <string name="send_total_label">Total</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s Fee</string>
 
     <string name="send_create_tx_error_title">Create Transaction Error</string>
@@ -285,7 +285,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR not a number</string>
+    <string name="receive_amount_nan">XMC not a number</string>
 
     <string name="details_alert_message">Sensitive data will now be shown.\nLook over your shoulder!</string>
     <string name="details_alert_yes">I\'m safe</string>
@@ -297,7 +297,7 @@
     <string name="archive_alert_no">No thanks!</string>
 
     <string-array name="currency" translatable="false">
-        <item>XMR</item>
+        <item>XMC</item>
         <item>EUR</item>
         <item>USD</item>
         <item>JPY</item>
@@ -338,7 +338,7 @@
     <string name="fab_restore_key">Restore wallet from private keys</string>
     <string name="fab_restore_seed">Restore wallet 25 word seed</string>
 
-    <string name="accounts_balance" translatable="false">%1$s XMR</string>
+    <string name="accounts_balance" translatable="false">%1$s XMC</string>
     <string name="tx_account_formatted" translatable="false">(%1$d, %2$d)</string>
 
     <string name="accounts_drawer_new">Create Account</string>
@@ -416,12 +416,12 @@
     <string name="send_address_bip70">Resolved Payment URI &#x2714;</string>
     <string name="send_address_hint">Receiver</string>
 
-    <string name="xmrto_error_001">XMR.TO offline - try again later</string>
+    <string name="xmrto_error_001">XMC.TO offline - try again later</string>
     <string name="xmrto_error_004">BTC amount out of bounds</string>
     <string name="xmrto_error_010">Invalid or outdated Payment URL</string>
     <string name="xmrto_error_012">Too many requests</string>
 
-    <string name="xmrto_error" translatable="false">XMR.TO Service Error</string>
+    <string name="xmrto_error" translatable="false">XMC.TO Service Error</string>
 
     <string name="street_sweep_amount">EVERYTHING!</string>
 

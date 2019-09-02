@@ -34,45 +34,45 @@
     <string name="info_xmrto_enabled">BTC-betalning aktiverad, tryck för mer info.</string>
     <string name="info_ledger_enabled">Ledger aktiverat, tryck för mer info.</string>
 
-    <string name="info_xmrto"><![CDATA[<b>Du har angivit en Bitcoin-adress.</b><br/> <i>Du kommer att skicka XMR och mottagaren får BTC via tjänsten <b>XMR.TO</b>.</i>]]></string>
+    <string name="info_xmrto"><![CDATA[<b>Du har angivit en Bitcoin-adress.</b><br/> <i>Du kommer att skicka XMC och mottagaren får BTC via tjänsten <b>XMC.TO</b>.</i>]]></string>
 
-    <string name="info_send_xmrto_success_order_label">XMR.TO-beställning</string>
+    <string name="info_send_xmrto_success_order_label">XMC.TO-beställning</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Väntar på bekräftelse</string>
     <string name="info_send_xmrto_unpaid">Väntar på betalning</string>
-    <string name="info_send_xmrto_error">XMR.TO-fel (%1$s)</string>
+    <string name="info_send_xmrto_error">XMC.TO-fel (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC skickades!</string>
     <string name="info_send_xmrto_query">Frågar …</string>
 
-    <string name="info_send_xmrto_parms"><![CDATA[<b>Du kan skicka %1$s &#8212; %2$s BTC</b>.<br/> <i><b>XMR.TO</b> ger dig <u>just nu</u> en växelkurs på <b>%3$s BTC</b></i>.]]></string>
+    <string name="info_send_xmrto_parms"><![CDATA[<b>Du kan skicka %1$s &#8212; %2$s BTC</b>.<br/> <i><b>XMC.TO</b> ger dig <u>just nu</u> en växelkurs på <b>%3$s BTC</b></i>.]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[<i>Belopp upp till <b>%1$s BTC</b> skickas <u>omedelbart</u>!</i>]]></string>
 
-    <string name="send_available_btc">Saldo: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Saldo: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Betalnings-ID integrerat</string>
     <string name="info_prepare_tx">Förbereder din transaktion</string>
 
-    <string name="label_send_progress_xmrto_create">Skapar XMR.TO-beställning</string>
-    <string name="label_send_progress_xmrto_query">Frågar XMR.TO-beställningen</string>
+    <string name="label_send_progress_xmrto_create">Skapar XMC.TO-beställning</string>
+    <string name="label_send_progress_xmrto_query">Frågar XMC.TO-beställningen</string>
     <string name="label_send_progress_create_tx">Förbereder Monero-transaktion</string>
 
     <string name="label_send_progress_queryparms">Frågar xmr.to-parametrar</string>
 
-    <string name="label_generic_xmrto_error">XMR.TO-FEL</string>
+    <string name="label_generic_xmrto_error">XMC.TO-FEL</string>
     <string name="text_generic_xmrto_error">Kod: %1$d</string>
 
     <string name="text_retry">Tryck för att försöka igen</string>
     <string name="text_noretry_monero">Nu har vi kört fast!</string>
-    <string name="text_noretry">Åh nej, XMR.TO verkar inte vara tillgänglig just nu!</string>
+    <string name="text_noretry">Åh nej, XMC.TO verkar inte vara tillgänglig just nu!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Kurs: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Kurs: %1$s BTC/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Besök xmr.to för support &amp; spårning</string>
-    <string name="label_send_btc_xmrto_key_lb">Hemlig nyckel\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO hemlig nyckel</string>
+    <string name="label_send_btc_xmrto_key_lb">Hemlig nyckel\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO hemlig nyckel</string>
     <string name="label_send_btc_address">Måladress för BTC</string>
     <string name="label_send_btc_amount">Belopp</string>
 
@@ -130,7 +130,7 @@
     <string name="label_wallet_receive">Ta emot</string>
     <string name="label_wallet_send">Ge</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR obekräftade</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC obekräftade</string>
 
     <string name="service_description">monerujo-tjänsten</string>
 
@@ -144,14 +144,14 @@
 
     <string name="label_copy_viewkey">Granskningsnyckel</string>
     <string name="label_copy_address">Publik adress</string>
-    <string name="label_copy_xmrtokey">XMR.TO-nyckel</string>
+    <string name="label_copy_xmrtokey">XMC.TO-nyckel</string>
     <string name="message_copy_viewkey">Granskningsnyckel kopierades till urklipp!</string>
-    <string name="message_copy_xmrtokey">XMR.TO-nyckel kopierades till urklipp!</string>
+    <string name="message_copy_xmrtokey">XMC.TO-nyckel kopierades till urklipp!</string>
     <string name="message_copy_address">Plånboksadress kopierades till urklipp!</string>
     <string name="message_copy_txid">Transaktions-ID kopierades till urklipp!</string>
     <string name="message_nocopy">Kopiering är inaktiverad av säkerhetskäl!</string>
 
-    <string name="message_exchange_failed">Det gick inte att hämta växelkurs!\nAnvänd XMR/XMR eller försök igen</string>
+    <string name="message_exchange_failed">Det gick inte att hämta växelkurs!\nAnvänd XMC/XMC eller försök igen</string>
 
     <string name="generate_title">Skapa plånbok</string>
     <string name="generate_name_hint">Plånbokens namn</string>
@@ -204,19 +204,19 @@
     <string name="send_qr_address_invalid">Inte en giltig QR-kod för betalning</string>
     <string name="send_address_invalid">Inte en giltig adress</string>
     <string name="send_title">Skicka</string>
-    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_available">Saldo: %1$s XMC</string>
     <string name="send_address_title">Adress</string>
     <string name="send_amount_title">Belopp</string>
     <string name="send_confirm_title">Bekräfta</string>
     <string name="send_success_title">Färdig</string>
 
     <string name="send_amount_label">Belopp</string>
-    <string name="send_fee_btc_label">Avgift (XMR)</string>
+    <string name="send_fee_btc_label">Avgift (XMC)</string>
     <string name="send_fee_label">Avgift</string>
-    <string name="send_total_btc_label">Summa (XMR)</string>
+    <string name="send_total_btc_label">Summa (XMC)</string>
     <string name="send_total_label">Summa</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s avgift</string>
 
     <string name="send_create_tx_error_title">Ett fel uppstod när transaktion skapades</string>
@@ -254,7 +254,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">XMR är inte ett tal</string>
+    <string name="receive_amount_nan">XMC är inte ett tal</string>
 
     <string name="details_alert_message">Nu kommer känsliga data att visas.\nTitta över axeln!</string>
     <string name="details_alert_yes">Det är OK</string>
@@ -354,7 +354,7 @@
     <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
     <string name="send_address_hint">Mottagaren</string>
 
-    <string name="xmrto_error_001">XMR.TO offline - try again later</string>
+    <string name="xmrto_error_001">XMC.TO offline - try again later</string>
     <string name="xmrto_error_004">BTC amount out of bounds</string>
     <string name="xmrto_error_010">Invalid or outdated Payment URL</string>
     <string name="xmrto_error_012">Too many requests</string>

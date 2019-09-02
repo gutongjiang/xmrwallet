@@ -35,51 +35,51 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Vi entajpis Bitmono-adreson.</b><br/>
-        <i>Vi sendos XMR-on, kaj per la<b>XMR.to</b>-servo, la ricevanto havos BTC-on.</i>
+        <i>Vi sendos XMC-on, kaj per la<b>XMC.to</b>-servo, la ricevanto havos BTC-on.</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">mendo al XMR.TO</string>
+    <string name="info_send_xmrto_success_order_label">mendo al XMC.TO</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
     <string name="info_send_xmrto_paid">Konfirmo okazonta</string>
     <string name="info_send_xmrto_unpaid">Pago okazonta</string>
-    <string name="info_send_xmrto_error">XMR.TO eraro (%1$s)</string>
+    <string name="info_send_xmrto_error">XMC.TO eraro (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC sendiĝis!</string>
     <string name="info_send_xmrto_query">Informpetante &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Vi povas sendi %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b> proponas al vi tiun kurzon: <b>%3$s BTC</b> <u>nun</u></i>.
+        <i><b>XMC.TO</b> proponas al vi tiun kurzon: <b>%3$s BTC</b> <u>nun</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>Kvantoj ĝis <b>%1$s BTC</b> sendiĝos <u>senatende</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Saldo: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Saldo: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Paga-ID integriĝis</string>
     <string name="info_prepare_tx">Preparante vian transakcion</string>
 
-    <string name="label_send_progress_xmrto_create">Kreante mendon al XMR.TO</string>
-    <string name="label_send_progress_xmrto_query">Petante XMR.TO-mendon </string>
+    <string name="label_send_progress_xmrto_create">Kreante mendon al XMC.TO</string>
+    <string name="label_send_progress_xmrto_query">Petante XMC.TO-mendon </string>
     <string name="label_send_progress_create_tx">Preparante la Monero-transakcion</string>
 
-    <string name="label_send_progress_queryparms">Petante la XMR.TO-parametrojn</string>
+    <string name="label_send_progress_queryparms">Petante la XMC.TO-parametrojn</string>
 
-    <string name="label_generic_xmrto_error">ERARO JE XMR.TO</string>
+    <string name="label_generic_xmrto_error">ERARO JE XMC.TO</string>
     <string name="text_generic_xmrto_error">kodo: %1$d</string>
 
     <string name="text_retry">Tuŝu por reprovi</string>
     <string name="text_noretry_monero">Ni blokiĝis ĉi tie!</string>
-    <string name="text_noretry">Uh-oh, ŝajne XMR.TO ne disponas momente!</string>
+    <string name="text_noretry">Uh-oh, ŝajne XMC.TO ne disponas momente!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(kurzo: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(kurzo: %1$s BTC/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Vizitu xmr.to por helpo kaj sekvado</string>
-    <string name="label_send_btc_xmrto_key_lb">Sekreta ŝlosilo\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO sekreta ŝlosilo</string>
+    <string name="label_send_btc_xmrto_key_lb">Sekreta ŝlosilo\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO sekreta ŝlosilo</string>
     <string name="label_send_btc_address">Ricevanta BTC-adreso</string>
     <string name="label_send_btc_amount">Kvanto</string>
 
@@ -140,7 +140,7 @@
     <string name="label_wallet_receive">Ricevi</string>
     <string name="label_wallet_send">Doni</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR nekonfirmite</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC nekonfirmite</string>
 
     <string name="service_description">monerujo Servo</string>
 
@@ -154,14 +154,14 @@
 
     <string name="label_copy_viewkey">Vida ŝlosilo</string>
     <string name="label_copy_address">Publika adreso</string>
-    <string name="label_copy_xmrtokey">XMR.TO ŝlosilo</string>
+    <string name="label_copy_xmrtokey">XMC.TO ŝlosilo</string>
     <string name="message_copy_viewkey">Vida ŝlosilo kopiiĝis en la tondujon!</string>
-    <string name="message_copy_xmrtokey">XMR.TO ŝlosilo kopiiĝis en la tondujon!</string>
+    <string name="message_copy_xmrtokey">XMC.TO ŝlosilo kopiiĝis en la tondujon!</string>
     <string name="message_copy_address">La monujadreso kopiiĝis en la tondujon!</string>
     <string name="message_copy_txid">La transakcia ID kopiiĝis en la tondujon!</string>
     <string name="message_nocopy">Por pli da sekureco, vi ne rajtas kopii tion!</string>
 
-    <string name="message_exchange_failed">La kurzo ne haveblas!\nUzu XMR/XMR aŭ reprovu</string>
+    <string name="message_exchange_failed">La kurzo ne haveblas!\nUzu XMC/XMC aŭ reprovu</string>
 
     <string name="generate_title">Krei monujon</string>
     <string name="generate_name_hint">Nomo de la monujo</string>
@@ -229,19 +229,19 @@
     <string name="send_address_resolve_openalias">Solvante OpenAlias&#8230;</string>
     <string name="send_address_no_dnssec">OpenAlias ne havas DNSSEC - la adreso estas eble uzurpita</string>
     <string name="send_title">Sendi</string>
-    <string name="send_available">Saldo: %1$s XMR</string>
+    <string name="send_available">Saldo: %1$s XMC</string>
     <string name="send_address_title">Adreso</string>
     <string name="send_amount_title">Kvanto</string>
     <string name="send_confirm_title">Konfirmi</string>
     <string name="send_success_title">Farite</string>
 
     <string name="send_amount_label">Kvanto</string>
-    <string name="send_fee_btc_label">Kosto (XMR)</string>
+    <string name="send_fee_btc_label">Kosto (XMC)</string>
     <string name="send_fee_label">Kosto</string>
-    <string name="send_total_btc_label">Sumo (XMR)</string>
+    <string name="send_total_btc_label">Sumo (XMC)</string>
     <string name="send_total_label">Sumo</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s Kosto</string>
 
     <string name="send_create_tx_error_title">Krei transakci-eraron</string>
@@ -369,7 +369,7 @@
     <string name="send_address_bip70">Sukcesis solvi la pagan URI&#x2714;</string>
     <string name="send_address_hint">Ricevanto</string>
 
-    <string name="xmrto_error_001">XMR.TO ne enretas - provu pli poste</string>
+    <string name="xmrto_error_001">XMC.TO ne enretas - provu pli poste</string>
     <string name="xmrto_error_004">BTC-kvanto tro grandas</string>
     <string name="xmrto_error_010">La paga URL malvalidas aŭ ne ĝisdatiĝis</string>
     <string name="xmrto_error_012">Tro da mendoj</string>

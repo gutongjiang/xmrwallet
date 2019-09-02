@@ -35,52 +35,52 @@
 
     <string name="info_xmrto"><![CDATA[
         <b>Ви ввели Bitcoin адресу.</b><br/>
-        <i>Надсилайте XMR, одержувач отримає BTC, використовуючи сервіс XMR.TO</i>
+        <i>Надсилайте XMC, одержувач отримає BTC, використовуючи сервіс XMC.TO</i>
     ]]></string>
 
-    <string name="info_send_xmrto_success_order_label">Заявка XMR.TO</string>
+    <string name="info_send_xmrto_success_order_label">Заявка XMC.TO</string>
 
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
 
 
     <string name="info_send_xmrto_paid">Очікування підтвердження</string>
     <string name="info_send_xmrto_unpaid">Очікування платежу</string>
-    <string name="info_send_xmrto_error">Помилка XMR.TO (%1$s)</string>
+    <string name="info_send_xmrto_error">Помилка XMC.TO (%1$s)</string>
     <string name="info_send_xmrto_sent">BTC успішно відправлені!</string>
     <string name="info_send_xmrto_query">Запит &#8230;</string>
 
     <string name="info_send_xmrto_parms"><![CDATA[
         <b>Ви можете відправити %1$s &#8212; %2$s BTC</b>.<br/>
-        <i><b>XMR.TO</b> встановлює курс обміну <b>%3$s BTC</b> <u>в даний момент</u></i>.
+        <i><b>XMC.TO</b> встановлює курс обміну <b>%3$s BTC</b> <u>в даний момент</u></i>.
     ]]></string>
     <string name="info_send_xmrto_zeroconf"><![CDATA[
         <i>Сума до <b>%1$s BTC</b> буде відправлена <u>негайно</u>!</i>
     ]]></string>
 
-    <string name="send_available_btc">Баланс: %2$s BTC (%1$s XMR)</string>
+    <string name="send_available_btc">Баланс: %2$s BTC (%1$s XMC)</string>
 
     <string name="info_paymentid_integrated">&#x2714; Інтегрований ID платежу</string>
     <string name="info_prepare_tx">Підготовка транзакції</string>
 
-    <string name="label_send_progress_xmrto_create">Створення заявки XMR.TO</string>
-    <string name="label_send_progress_xmrto_query">Запит заявки XMR.TO</string>
+    <string name="label_send_progress_xmrto_create">Створення заявки XMC.TO</string>
+    <string name="label_send_progress_xmrto_query">Запит заявки XMC.TO</string>
     <string name="label_send_progress_create_tx">Підготовка транзакції Monero</string>
 
-    <string name="label_send_progress_queryparms">Запит параметрів XMR.TO</string>
+    <string name="label_send_progress_queryparms">Запит параметрів XMC.TO</string>
 
-    <string name="label_generic_xmrto_error">XMR.TO ПОМИЛКА</string>
+    <string name="label_generic_xmrto_error">XMC.TO ПОМИЛКА</string>
     <string name="text_generic_xmrto_error">Код: %1$d</string>
 
     <string name="text_retry">Натисніть, щоб повторити спробу</string>
     <string name="text_noretry_monero">Тепер ми застрягли тут!</string>
-    <string name="text_noretry">Ой ой! Здається XMR.TO недоступний в даний момент!</string>
+    <string name="text_noretry">Ой ой! Здається XMC.TO недоступний в даний момент!</string>
 
-    <string name="text_send_btc_amount">%1$s BTC = %2$s XMR</string>
-    <string name="text_send_btc_rate">(Курс: %1$s BTC/XMR)</string>
+    <string name="text_send_btc_amount">%1$s BTC = %2$s XMC</string>
+    <string name="text_send_btc_rate">(Курс: %1$s BTC/XMC)</string>
 
     <string name="label_send_btc_xmrto_info">Відвідайте xmr.to для отримання допомоги &amp;</string>
-    <string name="label_send_btc_xmrto_key_lb">Секретний ключ\nXMR.TO</string>
-    <string name="label_send_btc_xmrto_key">XMR.TO секретний ключ</string>
+    <string name="label_send_btc_xmrto_key_lb">Секретний ключ\nXMC.TO</string>
+    <string name="label_send_btc_xmrto_key">XMC.TO секретний ключ</string>
     <string name="label_send_btc_address">Адреса отримувача BTC</string>
     <string name="label_send_btc_amount">Сума</string>
 
@@ -139,7 +139,7 @@
     <string name="label_wallet_receive">Отримати</string>
     <string name="label_wallet_send">Відправити</string>
 
-    <string name="xmr_unconfirmed_amount">+ %1$s XMR непідтверджено</string>
+    <string name="xmr_unconfirmed_amount">+ %1$s XMC непідтверджено</string>
 
     <string name="service_description">Служба monerujo</string>
 
@@ -153,14 +153,14 @@
 
     <string name="label_copy_viewkey">Ключ перегляду</string>
     <string name="label_copy_address">Публічна адреса</string>
-    <string name="label_copy_xmrtokey">XMR.TO ключ</string>
+    <string name="label_copy_xmrtokey">XMC.TO ключ</string>
     <string name="message_copy_viewkey">Ключ перегляду скопійовано в буфер обміну!</string>
-    <string name="message_copy_xmrtokey">Ключ XMR.TO скопійовано в буфер обміну!</string>
+    <string name="message_copy_xmrtokey">Ключ XMC.TO скопійовано в буфер обміну!</string>
     <string name="message_copy_address">Адресу гаманця скопійовано в буфер обміну!</string>
     <string name="message_copy_txid">ID транзакції скопійовано в буфер обміну!</string>
     <string name="message_nocopy">Копіювання недоступно з міркувань безпеки!</string>
 
-    <string name="message_exchange_failed">Неможливо отримати курс обміну!\nВикористовуйте XMR/XMR або спробуйте ще раз</string>
+    <string name="message_exchange_failed">Неможливо отримати курс обміну!\nВикористовуйте XMC/XMC або спробуйте ще раз</string>
 
     <string name="generate_title">Створити гаманець</string>
     <string name="generate_name_hint">імя гаманця</string>
@@ -224,19 +224,19 @@
     <string name="send_qr_address_invalid">Неприпустимий платіж по QR-коду</string>
     <string name="send_address_invalid">Неприпустима адреса</string>
     <string name="send_title">Відправлення</string>
-    <string name="send_available">Баланс: %1$s XMR</string>
+    <string name="send_available">Баланс: %1$s XMC</string>
     <string name="send_address_title">Адреса</string>
     <string name="send_amount_title">Сума</string>
     <string name="send_confirm_title">Підтвердження</string>
     <string name="send_success_title">Готово</string>
 
     <string name="send_amount_label">Сума</string>
-    <string name="send_fee_btc_label">Комісія (XMR)</string>
+    <string name="send_fee_btc_label">Комісія (XMC)</string>
     <string name="send_fee_label">Комісія</string>
-    <string name="send_total_btc_label">Всього (XMR)</string>
+    <string name="send_total_btc_label">Всього (XMC)</string>
     <string name="send_total_label">Всього</string>
 
-    <string name="send_amount">%1$s XMR</string>
+    <string name="send_amount">%1$s XMC</string>
     <string name="send_fee">+%1$s Комісія</string>
 
     <string name="send_create_tx_error_title">Помилка створення транзакції</string>
@@ -274,7 +274,7 @@
 
     <string name="receive_amount_too_big">Max. %1$s</string>
     <string name="receive_amount_negative">Min. 0</string>
-    <string name="receive_amount_nan">Не числове значення XMR</string>
+    <string name="receive_amount_nan">Не числове значення XMC</string>
 
     <string name="details_alert_message">Зараз будуть показані конфіденційні дані. Озирнись навколо!</string>
     <string name="details_alert_yes">Я в безпеці</string>
@@ -373,7 +373,7 @@
     <!-- please verify this means "Receiver" or "Recipient" as in "Receiver in the transaction" -->
     <string name="send_address_hint">Receiver</string>
 
-    <string name="xmrto_error_001">XMR.TO offline - try again later</string>
+    <string name="xmrto_error_001">XMC.TO offline - try again later</string>
     <string name="xmrto_error_004">BTC amount out of bounds</string>
     <string name="xmrto_error_010">Invalid or outdated Payment URL</string>
     <string name="xmrto_error_012">Too many requests</string>
