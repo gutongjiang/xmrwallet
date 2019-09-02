@@ -12,12 +12,14 @@
         android:id="@+id/action_license_info"
         android:orderInCategory="300"
         android:title="@string/menu_about"
+        android:visible="false"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_privacy_policy"
         android:orderInCategory="400"
         android:title="@string/menu_privacy"
+        android:visible="false"
         app:showAsAction="never" />
 
     <item
@@ -25,6 +27,7 @@
         android:icon="@drawable/ic_help_white_24dp"
         android:orderInCategory="500"
         android:title="@string/menu_help"
+        android:visible="false"
         app:showAsAction="ifRoom" />
 
 </menu>

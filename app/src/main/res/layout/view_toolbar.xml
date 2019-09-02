@@ -8,6 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_favorite_white_24dp"
+        android:visibility="invisible"
         android:text="@string/label_credits" />
 
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -23,7 +24,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="-8dp"
             android:src="@drawable/ic_logo_horizontol_xmrujo"
-            android:visibility="visible" />
+            android:visibility="invisible" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -35,7 +36,7 @@
                 android:id="@+id/toolbarTitle"
                 style="@style/MoneroLabel.Title"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:visibility="invisible"

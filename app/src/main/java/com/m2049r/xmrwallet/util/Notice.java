@@ -70,6 +70,7 @@ public class Notice {
                             R.string.help_create_ledger,
                             1)
             );
+            notices.clear();
         }
     }
 

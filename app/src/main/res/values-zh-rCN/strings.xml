@@ -27,7 +27,7 @@
     <string name="info_ledger_enabled">已支持Ledger硬件钱包，点此了解更多</string>
     <string name="info_xmrto"><![CDATA[
 <b>您输入了一个比特币地址</b><br/>
-<i>您发送的门罗币将通过<b>XMC.TO</b>服务，转换为比特币发送给对方。</i>
+<i>您发送的XMC将通过<b>XMC.TO</b>服务，转换为比特币发送给对方。</i>
 ]]></string>
     <string name="info_send_xmrto_success_order_label">XMC.TO订单</string>
     <string name="info_send_xmrto_success_btc">%1$s BTC</string>
@@ -168,8 +168,8 @@
     <string name="send_amount_hint">0.00</string>
     <string name="send_notes_hint">私密备注 (选填)</string>
     <string name="send_generate_paymentid_hint">生成</string>
-    <string name="send_send_label">发送门罗币</string>
-    <string name="send_send_timed_label">发送门罗币 (%1$s)</string>
+    <string name="send_send_label">发送XMC</string>
+    <string name="send_send_timed_label">发送XMC (%1$s)</string>
     <string name="send_qr_invalid">非QR码</string>
     <string name="send_qr_address_invalid">该支付QR码无效</string>
     <string name="send_address_invalid">该地址无效</string>

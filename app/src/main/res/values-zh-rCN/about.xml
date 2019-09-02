@@ -19,7 +19,7 @@
         <p>使用该App，代表您已经明确同意该隐私政策。</p>
         <h2>收集的信息</h2>
         <p>个人信息指可用于辨认个人身份的任何信息。</p>
-        <p>Monerujo只会在本地使用您的XMC密钥以及公开地址，以处理交易，并再加密后发往门罗网络。</p>
+        <p>Monerujo只会在本地使用您的XMC密钥以及公开地址，以处理交易，并再加密后发往XMC网络。</p>
         <p>其他个人信息都不会被 monerujo 收集。</p>
         <p>如果您使用交易的功能(可选)，monerujo將通过coinmarketcap.com的公开
         API 获取当前汇率。如果您想了解被收集的信息如何被使用，请访问 https://coinmarketcap.com/privacy

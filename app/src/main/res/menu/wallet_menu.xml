@@ -8,6 +8,7 @@
         android:icon="@drawable/gunther_24dp"
         android:orderInCategory="100"
         android:title="@string/menu_streetmode"
+        android:visible="false"
         app:showAsAction="ifRoom" />
 
     <item
@@ -20,12 +21,14 @@
         android:id="@+id/action_help_wallet"
         android:orderInCategory="300"
         android:title="@string/menu_help"
+        android:visible="false"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_credits"
         android:orderInCategory="400"
         android:title="@string/label_credits"
+        android:visible="false"
         app:showAsAction="never" />
 
     <item

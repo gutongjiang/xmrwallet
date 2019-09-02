@@ -108,8 +108,9 @@ public class Toolbar extends android.support.v7.widget.Toolbar {
             toolbarImage.setVisibility(View.INVISIBLE);
             toolbarTitle.setVisibility(View.VISIBLE);
         } else {
-            toolbarImage.setVisibility(View.VISIBLE);
-            toolbarTitle.setVisibility(View.INVISIBLE);
+            toolbarTitle.setText("XMC Wallet");
+            toolbarImage.setVisibility(View.INVISIBLE);
+            toolbarTitle.setVisibility(View.VISIBLE);
         }
     }
 
@@ -139,7 +140,7 @@ public class Toolbar extends android.support.v7.widget.Toolbar {
                 Timber.d("BUTTON_CREDITS");
                 bCredits.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_favorite_white_24dp, 0, 0, 0);
                 bCredits.setText(R.string.label_credits);
-                bCredits.setVisibility(View.VISIBLE);
+                bCredits.setVisibility(View.INVISIBLE);
                 break;
             case BUTTON_CANCEL:
                 Timber.d("BUTTON_CANCEL");
