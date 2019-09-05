@@ -144,7 +144,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC が未承認</string>
 
-    <string name="service_description">monerujo のサービス</string>
+    <string name="service_description">xmc のサービス</string>
 
     <string name="status_synced">同期済み:</string>
     <string name="status_remaining">残りのブロック</string>

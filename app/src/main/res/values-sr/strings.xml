@@ -144,7 +144,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC nepotvrđeno</string>
 
-    <string name="service_description">monerujo Servis</string>
+    <string name="service_description">xmc Servis</string>
 
     <string name="status_synced">Sinhronizovano:</string>
     <string name="status_remaining">Preostali blokovi</string>

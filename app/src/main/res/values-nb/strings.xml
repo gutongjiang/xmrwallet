@@ -140,7 +140,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC ubekrefta</string>
 
-    <string name="service_description">monerujo tjeneste</string>
+    <string name="service_description">xmc tjeneste</string>
 
     <string name="status_synced">Synkronisert:</string>
     <string name="status_remaining">Gjenværende blokker</string>

@@ -142,7 +142,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC unbestätigt</string>
 
-    <string name="service_description">monerujo Service</string>
+    <string name="service_description">xmc Service</string>
 
     <string name="status_synced">Synchronisiert:</string>
     <string name="status_remaining">Blöcke verbleibend</string>

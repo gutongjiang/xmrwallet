@@ -140,7 +140,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC függőben</string>
 
-    <string name="service_description">monerujo szolgáltatás</string>
+    <string name="service_description">xmc szolgáltatás</string>
 
     <string name="status_synced">Szinkronizálva:</string>
     <string name="status_remaining">blokk van hátra</string>

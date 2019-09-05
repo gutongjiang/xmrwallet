@@ -140,7 +140,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC onbevestigd</string>
 
-    <string name="service_description">monerujo-service</string>
+    <string name="service_description">xmc-service</string>
 
     <string name="status_synced">Gesynchroniseerd:</string>
     <string name="status_remaining">Blokken te gaan</string>

@@ -142,7 +142,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC nekonfirmite</string>
 
-    <string name="service_description">monerujo Servo</string>
+    <string name="service_description">xmc Servo</string>
 
     <string name="status_synced">Sinkronizas:</string>
     <string name="status_remaining">Restaj blokoj</string>

@@ -141,7 +141,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC nepotvrdených</string>
 
-    <string name="service_description">monerujo Service</string>
+    <string name="service_description">xmc Service</string>
 
     <string name="status_synced">Synchronizované:</string>
     <string name="status_remaining">zostávajúcich blokov</string>

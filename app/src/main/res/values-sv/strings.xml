@@ -132,7 +132,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC obekräftade</string>
 
-    <string name="service_description">monerujo-tjänsten</string>
+    <string name="service_description">xmc-tjänsten</string>
 
     <string name="status_synced">Synkade:</string>
     <string name="status_remaining">Återstående block</string>

@@ -131,7 +131,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC μη επιβεβαιωμένα</string>
 
-    <string name="service_description">Υπηρεσία monerujo</string>
+    <string name="service_description">Υπηρεσία xmc</string>
 
     <string name="status_synced">Συγχρονισμένα:</string>
     <string name="status_remaining">Μπλοκς που απομένουν</string>

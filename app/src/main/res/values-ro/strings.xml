@@ -131,7 +131,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s XMC neconfirmat</string>
 
-    <string name="service_description">Serviciul monerujo</string>
+    <string name="service_description">Serviciul xmc</string>
 
     <string name="status_synced">Sincronizat:</string>
     <string name="status_remaining">Monoblocuri rămase</string>

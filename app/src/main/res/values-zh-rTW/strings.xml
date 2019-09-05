@@ -142,7 +142,7 @@
 
     <string name="xmr_unconfirmed_amount">+ %1$s 未確認的 XMC </string>
 
-    <string name="service_description">monerujo 服務</string>
+    <string name="service_description">xmc 服務</string>
 
     <string name="status_synced">已同步區塊：</string>
     <string name="status_remaining">剩餘區塊</string>
