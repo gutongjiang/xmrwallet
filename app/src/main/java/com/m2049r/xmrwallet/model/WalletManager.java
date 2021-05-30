@@ -57,8 +57,9 @@ public class WalletManager {
         switch (networkType) {
             case NetworkType_Testnet:
                 return "9A-";
+                // TODO Chen Fei v2版本地址格式为9开头
             case NetworkType_Mainnet:
-                return "4-";
+                return "9-";
             case NetworkType_Stagenet:
                 return "5-";
             default:

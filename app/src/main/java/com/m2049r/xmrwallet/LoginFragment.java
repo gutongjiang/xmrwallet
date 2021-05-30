@@ -64,6 +64,7 @@ public class LoginFragment extends Fragment implements WalletInfoAdapter.OnInter
     private List<WalletManager.WalletInfo> displayedList = new ArrayList<>();
 
     private ImageView ivGunther;
+    private TextView tvVersion;
     private TextView tvNodeName;
     private TextView tvNodeAddress;
     private View pbNode;
@@ -144,6 +145,7 @@ public class LoginFragment extends Fragment implements WalletInfoAdapter.OnInter
         View view = inflater.inflate(R.layout.fragment_login, container, false);
 
         ivGunther = view.findViewById(R.id.ivGunther);
+        tvVersion = view.findViewById(R.id.tvVersion);
         fabScreen = view.findViewById(R.id.fabScreen);
         fab = view.findViewById(R.id.fab);
         fabNew = view.findViewById(R.id.fabNew);
@@ -274,11 +276,13 @@ public class LoginFragment extends Fragment implements WalletInfoAdapter.OnInter
         // deal with Gunther & FAB animation
         if (displayedList.isEmpty()) {
             fab.startAnimation(fab_pulse);
+            tvVersion.setVisibility(View.VISIBLE);
             if (ivGunther.getDrawable() == null) {
                 ivGunther.setImageResource(R.drawable.gunther_desaturated);
             }
         } else {
             fab.clearAnimation();
+            tvVersion.setVisibility(View.GONE);
             if (ivGunther.getDrawable() != null) {
                 ivGunther.setImageDrawable(null);
             }

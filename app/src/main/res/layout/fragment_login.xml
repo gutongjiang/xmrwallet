@@ -109,6 +109,16 @@
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
                 android:layout_gravity="center"
+                android:padding="48dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tvVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="xmc mobile v2.1"
+                android:visibility="gone"
                 android:padding="48dp" />
 
             <android.support.v7.widget.RecyclerView xmlns:tools="http://schemas.android.com/tools"

@@ -23,6 +23,7 @@ import android.content.res.Configuration;
 
 import com.m2049r.xmrwallet.model.NetworkType;
 import com.m2049r.xmrwallet.util.LocaleHelper;
+import com.tencent.bugly.crashreport.CrashReport;
 
 import timber.log.Timber;
 
@@ -34,6 +35,9 @@ public class XmrWalletApplication extends Application {
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
         }
+
+        CrashReport.initCrashReport(getApplicationContext(), "38fd86528d", true);
+
     }
 
     @Override

@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion '28.0.3'
+    compileSdkVersion 30
+    buildToolsVersion '30.0.2'
     defaultConfig {
-        applicationId "com.m2049r.xmrwallet"
+        applicationId "com.xmc.wallet"
         minSdkVersion 21
-        targetSdkVersion 28
-        versionCode 184
-        versionName "1.12.0 'Chernushka'"
+        targetSdkVersion 30
+        versionCode 187
+        versionName "2.1.2"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
@@ -69,6 +69,7 @@ android {
 
     // Enumerate translated locales
     def availableLocales = ["en"]
+    ndkVersion '21.0.6113669'
     new File("app/src/main/res/").eachFileMatch(~/^values-.*/) { file ->
         def languageTag = file.name.substring(7).replace("-r", "-")
         availableLocales.add(languageTag)
@@ -118,9 +119,9 @@ dependencies {
     // https://mvnrepository.com/artifact/com.github.aelstad/keccakj
     implementation 'com.github.aelstad:keccakj:1.1.0'
 
+    implementation 'com.tencent.bugly:crashreport:latest.release'
 
     testImplementation "junit:junit:$rootProject.ext.junitVersion"
-    testImplementation "org.mockito:mockito-all:$rootProject.ext.mockitoVersion"
     testImplementation "com.squareup.okhttp3:mockwebserver:$rootProject.ext.okHttpVersion"
     testImplementation 'org.json:json:20180813'
     testImplementation 'net.jodah:concurrentunit:0.4.4'

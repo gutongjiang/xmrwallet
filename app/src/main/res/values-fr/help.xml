@@ -153,36 +153,6 @@
         <p>C’est l’adresse publique du portefeuille auquel vous allez envoyer des XMCj, vous pouvez
         la copier/coller, scanner un QR code ou la saisir manuellement. Vérifiez là bien trois fois
         afin de vous assurer que vous n’envoyez pas de pièces à la mauvaise adresse.</p>
-        <p>En complément de l’utilisation d'une adresse XMR, vous pouvez aussi utiliser
-        <ul>
-            <li>une adresse OpenAlias pour XMR ou BTC</li>
-            <li>une adresse BTC</li>
-            <li>une URI bitcoin: (incluant BIP70 comme bitpay)</li>
-        </u>
-        Notez que l’envoi de BTC est traité à travers le service XMR.TO (voir https://xmr.to pour
-        plus de détails). Voir la rubrique sur l’envoi de BTC plus bas.</p>
-        <h2>ID de Paiement</h2>
-        <p>Vous pouvez utiliser un ID de paiement pour identifier la raison pour laquelle vous avez
-        envoyé des XMCj entre deux parties. C’est totallement privé et optionnel. Il permet par
-        exemple à une société de faire concorder votre transaction avec un article que vous avez
-        acheté.</p>
-        <h1>Envoyer des BTC</h1>
-        <h2>XMR.TO</h2>
-        <p>XMR.TO est un service tierce-partie qui agit commme un change depuis XMC vers Bitcoin.
-        Nous utilisons l’API XMR.TO pour intégrer les paiements Bitcoin dans Monerujo. Veuillez
-        consulter https://xmr.to et décidez vous-même si vous souhaitez l’utiliser. L’équipe Monerujo
-        n’est pas affiliée à XMR.TO et ne peut pas vous aider concernant leurs services.</p>
-        <h2>Taux de change XMR.TO<h2>
-        <p>Sur l’écran \"Montant\" vous seront indiqué les paramètres actuels du serive XMR.TO. Cela
-        inclus le taux de change actuel, ainsi que les limites BTC hautes et basses. Notez que ce taux
-        n’est pas garantit à ce stade. Vous verrez également le montnt jusqu’auquel la transaction BTC
-        sera exécutée instantanément sans attendre de confirmation XMR (voir la FAQ XMR.TO pour plus de
-        détails). Veuillez noter que XMR.TO n’ajoute pas de frais additionnels - c’est pas cool ça ?</p>
-        <h2>Ordre XMR.TO<h2>
-        <p>Sur l’écran \"Confirmation\", vous verez l’ordre XMR.TO actuel. Cette ordre est valide pour
-        un temps limité - vous pouvez remarquer le compte à rebours sur le bouton \"Dépenser\". Ce taux
-        de change peut être différent du taux indicatif de l’écran précédent.</p>
-        <h2>Clef Secrète XMR.TO<h2>
         <p>Comme Monerujo ne traite que le volet XMC de votre transaction, votre clef secrète
         XMR.TO peut être utilisée pour suivre le volet Bitcoin de votre ordre sur la page d’accueil
         de XMR.TO.</p>

@@ -102,7 +102,9 @@ public class Helper {
             Timber.e(msg);
             throw new IllegalStateException(msg);
         }
-        File dir = new File(Environment.getExternalStorageDirectory(), folderName);
+        // TODO Chen Fei 使用应用特定的目录
+//        File dir = new File(Environment.getExternalStorageDirectory(), folderName);
+        File dir = context.getExternalFilesDir(null);
         if (!dir.exists()) {
             Timber.i("Creating %s", dir.getAbsolutePath());
             dir.mkdirs(); // try to make it

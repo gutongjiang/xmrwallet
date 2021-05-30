@@ -142,7 +142,9 @@ public class NodeInfo extends Node {
     }
 
     public boolean isValid() {
-        return isSuccessful() && (majorVersion >= MIN_MAJOR_VERSION) && (responseTime < Double.MAX_VALUE);
+//        return isSuccessful() && (majorVersion >= MIN_MAJOR_VERSION) && (responseTime < Double.MAX_VALUE);
+        // TODO Chen Fei 修改判断节点合法的条件
+        return isSuccessful();
     }
 
     static public Comparator<NodeInfo> BestNodeComparator = new Comparator<NodeInfo>() {

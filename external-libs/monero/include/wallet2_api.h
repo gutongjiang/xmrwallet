@@ -594,6 +594,7 @@ struct Wallet
     virtual ConnectionStatus connected() const = 0;
     virtual void setTrustedDaemon(bool arg) = 0;
     virtual bool trustedDaemon() const = 0;
+
     virtual uint64_t balance(uint32_t accountIndex = 0) const = 0;
     uint64_t balanceAll() const {
         uint64_t result = 0;
@@ -674,6 +675,7 @@ struct Wallet
         return paymentIdFromAddress(str, testnet ? TESTNET : MAINNET);
     }
     static uint64_t maximumAllowedAmount();
+
     // Easylogger wrapper
     static void init(const char *argv0, const char *default_log_base_name) { init(argv0, default_log_base_name, "", true); }
     static void init(const char *argv0, const char *default_log_base_name, const std::string &log_path, bool console);
@@ -914,6 +916,7 @@ struct Wallet
      *                          Parameters `account_index` and `amount` are ignored when `all` is true
      */
     virtual std::string getReserveProof(bool all, uint32_t account_index, uint64_t amount, const std::string &message) const = 0;
+    virtual std::string getReserveProof(bool all, uint32_t account_index, double amount, const std::string &message) const = 0;
     virtual bool checkReserveProof(const std::string &address, const std::string &message, const std::string &signature, bool &good, uint64_t &total, uint64_t &spent) const = 0;
 
     /*
@@ -947,6 +950,8 @@ struct Wallet
     virtual bool verifyMessageWithPublicKey(const std::string &message, const std::string &publicKey, const std::string &signature) const = 0;
 
     virtual bool parse_uri(const std::string &uri, std::string &address, std::string &payment_id, uint64_t &amount, std::string &tx_description, std::string &recipient_name, std::vector<std::string> &unknown_parameters, std::string &error) = 0;
+    virtual bool parse_uri(const std::string &uri, std::string &address, std::string &payment_id, double &amount, std::string &tx_description, std::string &recipient_name, std::vector<std::string> &unknown_parameters, std::string &error) = 0;
+
 
     virtual std::string getDefaultDataDir() const = 0;
    
@@ -985,9 +990,11 @@ struct Wallet
 
     //! Light wallet authenticate and login
     virtual bool lightWalletLogin(bool &isNewWallet) const = 0;
+
     
     //! Initiates a light wallet import wallet request
     virtual bool lightWalletImportWalletRequest(std::string &payment_id, uint64_t &fee, bool &new_request, bool &request_fulfilled, std::string &payment_address, std::string &status) = 0;
+    virtual bool lightWalletImportWalletRequest(std::string &payment_id, double &fee, bool &new_request, bool &request_fulfilled, std::string &payment_address, std::string &status) = 0;
 
     //! locks/unlocks the keys file; returns true on success
     virtual bool lockKeysFile() = 0;
@@ -1003,6 +1010,15 @@ struct Wallet
 
     //! cold-device protocol key image sync
     virtual uint64_t coldKeyImageSync(uint64_t &spent, uint64_t &unspent) = 0;
+
+    virtual PendingTransaction * createLockTransaction(const std::string &dst_addr, const std::string &payment_id,
+                                                   optional<uint64_t> amount, uint32_t mixin_count,
+                                                   PendingTransaction::Priority priority = PendingTransaction::Priority_Low,
+                                                   uint32_t subaddr_account = 0,
+                                                   std::set<uint32_t> subaddr_indices = {},
+                                                   uint64_t unlock_time = 0) = 0;
+
+    virtual uint64_t reveal_tx_out(const std::string& txid) = 0;
 };
 
 /**

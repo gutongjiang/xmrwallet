@@ -64,6 +64,7 @@ import com.m2049r.xmrwallet.widget.Toolbar;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.channels.FileChannel;
 import java.util.ArrayList;
@@ -924,6 +925,21 @@ public class LoginActivity extends BaseActivity
             Timber.e(walletStatus.getErrorString());
             toast(walletStatus.getErrorString());
         }
+
+        // TODO Chen Fei
+        // 新建地址的时候,如果 .address.txt 文件创建失败,在这里再次创建
+        File walletFolder = getStorageRoot();
+        File addressFile = new File(walletFolder, aWallet.getName() + ".address.txt");
+        if (!addressFile.exists()) {
+            try {
+                FileWriter fw = new FileWriter(addressFile, false);
+                fw.write(aWallet.getAddress());
+                fw.close();
+            } catch (IOException ex) {
+                Timber.e(ex.toString());
+            }
+        }
+
         aWallet.close();
         return walletStatus.isOk();
     }
